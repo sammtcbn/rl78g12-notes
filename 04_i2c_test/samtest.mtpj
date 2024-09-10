@@ -106,6 +106,27 @@
       <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
       <ParentItem>4d9ba25c-6728-4b24-acc3-341b64184936</ParentItem>
     </Instance>
+    <Instance Guid="95417c28-b129-49a6-baad-731d83ab4a84">
+      <Name>r_cg_serial.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_serial.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>4d9ba25c-6728-4b24-acc3-341b64184936</ParentItem>
+    </Instance>
+    <Instance Guid="882e00cc-2827-4e86-8ce7-f2428c1b14a9">
+      <Name>r_cg_serial_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_serial_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>4d9ba25c-6728-4b24-acc3-341b64184936</ParentItem>
+    </Instance>
+    <Instance Guid="235fceb6-faf1-4457-bf37-b7fa7cf3a94e">
+      <Name>r_cg_serial.h</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_serial.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>4d9ba25c-6728-4b24-acc3-341b64184936</ParentItem>
+    </Instance>
   </Class>
   <Class Guid="fb98844b-2c27-4275-9804-f6e63e204da0">
     <Instance Guid="fb98844b-2c27-4275-9804-f6e63e204da0">
@@ -154,11 +175,11 @@
       <CurrentBuildMode>DefaultBuild</CurrentBuildMode>
       <SourceItemGuid0>1e33cc9d-efb4-45ab-83fb-583022896ad0</SourceItemGuid0>
       <SourceItemType0>AsmSource</SourceItemType0>
-      <SourceItemGuid1>c0456616-a622-44b6-ae9e-2b26da99edda</SourceItemGuid1>
-      <SourceItemType1>CSource</SourceItemType1>
-      <SourceItemGuid2>7bf95c85-153e-434e-ad45-0a148c5bca23</SourceItemGuid2>
-      <SourceItemType2>AsmSource</SourceItemType2>
-      <SourceItemGuid3>69c77e39-4cc4-4d32-a759-319ec6065f64</SourceItemGuid3>
+      <SourceItemGuid1>7bf95c85-153e-434e-ad45-0a148c5bca23</SourceItemGuid1>
+      <SourceItemType1>AsmSource</SourceItemType1>
+      <SourceItemGuid2>69c77e39-4cc4-4d32-a759-319ec6065f64</SourceItemGuid2>
+      <SourceItemType2>CSource</SourceItemType2>
+      <SourceItemGuid3>c0456616-a622-44b6-ae9e-2b26da99edda</SourceItemGuid3>
       <SourceItemType3>CSource</SourceItemType3>
       <SourceItemGuid4>e7211d22-c1c0-41cc-a57b-7f5d5d434d22</SourceItemGuid4>
       <SourceItemType4>CSource</SourceItemType4>
@@ -168,7 +189,11 @@
       <SourceItemType6>CSource</SourceItemType6>
       <SourceItemGuid7>fb9de5be-862e-4a4c-a276-10c5164b5713</SourceItemGuid7>
       <SourceItemType7>CSource</SourceItemType7>
-      <SourceItemCount>8</SourceItemCount>
+      <SourceItemGuid8>95417c28-b129-49a6-baad-731d83ab4a84</SourceItemGuid8>
+      <SourceItemType8>CSource</SourceItemType8>
+      <SourceItemGuid9>882e00cc-2827-4e86-8ce7-f2428c1b14a9</SourceItemGuid9>
+      <SourceItemType9>CSource</SourceItemType9>
+      <SourceItemCount>10</SourceItemCount>
       <LastDeviceChangedCounter>0</LastDeviceChangedCounter>
       <LastDeviceNameOnPG>R5F1026A</LastDeviceNameOnPG>
       <LastDeviceChangedCounterOnPG>0</LastDeviceChangedCounterOnPG>
@@ -1010,22 +1035,34 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       <ItemAddTime>638615641023650657</ItemAddTime>
       <ItemAddTimeCount>9</ItemAddTimeCount>
     </Instance>
+    <Instance Guid="95417c28-b129-49a6-baad-731d83ab4a84">
+      <ItemAddTime>638615646518996956</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="882e00cc-2827-4e86-8ce7-f2428c1b14a9">
+      <ItemAddTime>638615646518996956</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="235fceb6-faf1-4457-bf37-b7fa7cf3a94e">
+      <ItemAddTime>638615646518996956</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
     <Instance Guid="0b7e78c3-aadd-45ee-9f9d-ffac6141eeb2">
       <TimeTagModified-SourceItem0--0>-8584756699550905530</TimeTagModified-SourceItem0--0>
       <SourceItem0-IsLockedByUser>False</SourceItem0-IsLockedByUser>
       <SourceItem0-BuildingTarget-0>True</SourceItem0-BuildingTarget-0>
       <SourceItem0-IndividualAssembleOption-0>False</SourceItem0-IndividualAssembleOption-0>
-      <TimeTagModified-SourceItem2--0>-8584756699550875449</TimeTagModified-SourceItem2--0>
-      <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
-      <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
-      <SourceItem2-IndividualAssembleOption-0>False</SourceItem2-IndividualAssembleOption-0>
-    </Instance>
-    <Instance Guid="f782db2c-1c42-4ca1-af6a-53a3a5067217">
-      <TimeTagModified-SourceItem1--0>-8584756683831105035</TimeTagModified-SourceItem1--0>
+      <TimeTagModified-SourceItem1--0>-8584756699550875449</TimeTagModified-SourceItem1--0>
       <SourceItem1-IsLockedByUser>False</SourceItem1-IsLockedByUser>
       <SourceItem1-BuildingTarget-0>True</SourceItem1-BuildingTarget-0>
-      <SourceItem1-IndividualCompileOption-0>False</SourceItem1-IndividualCompileOption-0>
-      <TimeTagModified-SourceItem3--0>-8584756683831115182</TimeTagModified-SourceItem3--0>
+      <SourceItem1-IndividualAssembleOption-0>False</SourceItem1-IndividualAssembleOption-0>
+    </Instance>
+    <Instance Guid="f782db2c-1c42-4ca1-af6a-53a3a5067217">
+      <TimeTagModified-SourceItem2--0>-8584756683831115182</TimeTagModified-SourceItem2--0>
+      <SourceItem2-IsLockedByUser>False</SourceItem2-IsLockedByUser>
+      <SourceItem2-BuildingTarget-0>True</SourceItem2-BuildingTarget-0>
+      <SourceItem2-IndividualCompileOption-0>False</SourceItem2-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem3--0>-8584756683831105035</TimeTagModified-SourceItem3--0>
       <SourceItem3-IsLockedByUser>False</SourceItem3-IsLockedByUser>
       <SourceItem3-BuildingTarget-0>True</SourceItem3-BuildingTarget-0>
       <SourceItem3-IndividualCompileOption-0>False</SourceItem3-IndividualCompileOption-0>
@@ -1045,6 +1082,14 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       <SourceItem7-IsLockedByUser>False</SourceItem7-IsLockedByUser>
       <SourceItem7-BuildingTarget-0>True</SourceItem7-BuildingTarget-0>
       <SourceItem7-IndividualCompileOption-0>False</SourceItem7-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem8--0>-8584756678335768830</TimeTagModified-SourceItem8--0>
+      <SourceItem8-IsLockedByUser>False</SourceItem8-IsLockedByUser>
+      <SourceItem8-BuildingTarget-0>True</SourceItem8-BuildingTarget-0>
+      <SourceItem8-IndividualCompileOption-0>False</SourceItem8-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem9--0>-8584756678335748939</TimeTagModified-SourceItem9--0>
+      <SourceItem9-IsLockedByUser>False</SourceItem9-IsLockedByUser>
+      <SourceItem9-BuildingTarget-0>True</SourceItem9-BuildingTarget-0>
+      <SourceItem9-IndividualCompileOption-0>False</SourceItem9-IndividualCompileOption-0>
     </Instance>
   </Class>
   <Class Guid="44fa27c9-0aa0-4297-bd3b-2c5c5bdb8881">
@@ -2718,9 +2763,9 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
 &lt;/SOAP-ENV:Body&gt;
 &lt;/SOAP-ENV:Envelope&gt;
 </KeyExtGridLayout>
-      <KeyTopViewZoom>1</KeyTopViewZoom>
-      <KeyTopViewAngle>0</KeyTopViewAngle>
-      <KeyTopViewPartsCollapsed>False</KeyTopViewPartsCollapsed>
+      <KeyTopViewZoom />
+      <KeyTopViewAngle />
+      <KeyTopViewPartsCollapsed />
       <KEY_SAVE_ALLOCATED_FUNCTION>True</KEY_SAVE_ALLOCATED_FUNCTION>
       <KEY_SAVE_ALLOCATED_FUNCTION_TERMINAL_NUMBER_COLLECTION>7,8,11,12</KEY_SAVE_ALLOCATED_FUNCTION_TERMINAL_NUMBER_COLLECTION>
       <KEY_SAVE_ALLOCATED_FCUNTION_COLLECTION7>7,P122,KR2,X2,EXCLK</KEY_SAVE_ALLOCATED_FCUNTION_COLLECTION7>
@@ -3064,7 +3109,7 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       &lt;/Effect&gt;
     &lt;/IICA0&gt;
     &lt;ProjectName Name="PrjName" Text="samtest" /&gt;
-    &lt;ProjectPath Name="PrjPath" Text="Z:\reposam\rl78g12-notes\03" /&gt;
+    &lt;ProjectPath Name="PrjPath" Text="Z:\reposam\rl78g12-notes\04" /&gt;
     &lt;ProjectKind Name="PrjKind" Text="Project78K0R" /&gt;
     &lt;DeviceName Name="DeviceName" Fixed="" Text="RL78G12" /&gt;
     &lt;MCUName Name="MCUName" Text="RL78G12_20pin" /&gt;
@@ -3140,8 +3185,8 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
           &lt;P42 Name="P42/ANI21/_SCK01/SCL01/TI03/TO03" DIN="true" AltFunc="" Point="I/O" /&gt;
         &lt;/Port4&gt;
         &lt;Port6 Chip="RL78G12_20pin,RL78G12_24pin"&gt;
-          &lt;P60 Name="P60/KR4/SCLA0" AltFunc="" Point="I/O" /&gt;
-          &lt;P61 Name="P61/KR5/SDAA0" AltFunc="" Point="I/O" /&gt;
+          &lt;P60 Name="P60/KR4/SCLA0" AltFunc="SCLA0" Point="I/O" /&gt;
+          &lt;P61 Name="P61/KR5/SDAA0" AltFunc="SDAA0" Point="I/O" /&gt;
         &lt;/Port6&gt;
         &lt;Port12 Chip="RL78G12_20pin,RL78G12_24pin"&gt;
           &lt;P121 Name="P121/KR3/X1" AltFunc="" Point="I" /&gt;
@@ -3293,7 +3338,7 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
           &lt;INTIIC31 InUse="0" ISR="r_iic31_interrupt" /&gt;
         &lt;/SAU1&gt;
         &lt;IICA0&gt;
-          &lt;INTIICA0 InUse="0" ISR="r_iica0_interrupt" /&gt;
+          &lt;INTIICA0 InUse="1" ISR="r_iica0_interrupt" /&gt;
         &lt;/IICA0&gt;
       &lt;/Serial&gt;
       &lt;ADC&gt;
@@ -3470,7 +3515,7 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
         &lt;r_cg_intc.h UserName="r_cg_intc.h" LibName=".h" InUse="" /&gt;
       &lt;/INTC&gt;
       &lt;Serial&gt;
-        &lt;r_cg_serial.c UserName="r_cg_serial.c" LibName=".c" InUse="0"&gt;
+        &lt;r_cg_serial.c UserName="r_cg_serial.c" LibName=".c" InUse="1"&gt;
           &lt;Type R_SAUn_Create="void R_SAUn_Create(void)" R_SAUn_Set_PowerOff="void R_SAUn_Set_PowerOff(void)" R_SAUn_Set_SnoozeOn="void R_SAUn_Set_SnoozeOn(void)" R_SAUn_Set_SnoozeOff="void R_SAUn_Set_SnoozeOff(void)" R_UARTn_Create="void R_UARTn_Create(void)" R_UARTn_Send="MD_STATUS R_UARTn_Send(uint8_t * const tx_buf, uint16_t tx_num)" R_UARTn_Receive="MD_STATUS R_UARTn_Receive(uint8_t * const rx_buf, uint16_t rx_num)" R_UARTn_Start="void R_UARTn_Start(void)" R_UARTn_Stop="void R_UARTn_Stop(void)" R_CSIn_Create="void R_CSIn_Create(void)" R_CSIn_Send="MD_STATUS R_CSIn_Send(uint8_t * const tx_buf, uint16_t tx_num)" R_CSIn_Receive="MD_STATUS R_CSIn_Receive(uint8_t * const rx_buf, uint16_t rx_num) " R_CSIn_Send_Receive="MD_STATUS R_CSIn_Send_Receive(uint8_t * const tx_buf, uint16_t tx_num, uint8_t * const rx_buf) " R_CSIn_Start="void R_CSIn_Start(void)" R_CSIn_Stop="void R_CSIn_Stop(void)" R_IICn_Create="void R_IICn_Create(void)" R_IICn_Master_Send="void R_IICn_Master_Send(uint8_t adr, uint8_t * const tx_buf, uint16_t tx_num)" R_IICn_Master_Receive="void R_IICn_Master_Receive(uint8_t adr, uint8_t * const rx_buf, uint16_t rx_num) " R_IICn_Stop="void R_IICn_Stop(void)" R_IICn_StartCondition="void R_IICn_StartCondition(void)" R_IICn_StopCondition="void R_IICn_StopCondition(void)" IICn_Init="void IICn_Init(void)" IICn_MasterSendStart="MD_STATUS IICn_MasterSendStart(uint8_t adr, uint8_t * const tx_buf, USHORT tx_num, uint8_t wait)" IICn_MasterReceiveStart="MD_STATUS IICn_MasterReceiveStart(uint8_t adr, uint8_t * const rx_buf, USHORT rx_num, uint8_t wait)" IICn_SlaveSendStart="void IICn_SlaveSendStart(uint8_t * const tx_buf, USHORT tx_num)" IICn_SlaveReceiveStart="void IICn_SlaveReceiveStart(uint8_t * const rx_buf, USHORT rx_num)" IICn_Stop="void IICn_Stop(void)" IICn_StopCondition="void IICn_StopCondition(void)" IICn_PowerOff="void IICn_PowerOff(void)" R_IICAn_Create="void R_IICAn_Create(void)" R_IICAn_Master_Send="MD_STATUS R_IICAn_Master_Send(uint8_t adr, uint8_t * const tx_buf, uint16_t tx_num, uint8_t wait)" R_IICAn_Master_Receive="MD_STATUS R_IICAn_Master_Receive(uint8_t adr, uint8_t * const rx_buf, uint16_t rx_num, uint8_t wait)" R_IICAn_Slave_Send="void R_IICAn_Slave_Send(uint8_t * const tx_buf, uint16_t tx_num)" R_IICAn_Slave_Receive="void R_IICAn_Slave_Receive(uint8_t * const rx_buf, uint16_t rx_num)" R_IICAn_Stop="void R_IICAn_Stop(void)" R_IICAn_StopCondition="void R_IICAn_StopCondition(void)" R_IICAn_Set_SnoozeOn="void R_IICAn_Set_SnoozeOn(void)" R_IICAn_Set_SnoozeOff="void R_IICAn_Set_SnoozeOff(void)" R_IICAn_Set_PowerOff="void R_IICAn_Set_PowerOff(void)" /&gt;
           &lt;SAU0 InUse=""&gt;
             &lt;R_SAU0_Create UserName="R_SAU0_Create" LibName="R_SAUn_Create" InUse="0" Init="1" InitMode="" /&gt;
@@ -3518,19 +3563,19 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
             &lt;/IIC01&gt;
           &lt;/SAU0&gt;
           &lt;IICA0 InUse=""&gt;
-            &lt;R_IICA0_Create UserName="R_IICA0_Create" LibName="R_IICAn_Create" InUse="" Init="1" InitMode="" /&gt;
-            &lt;R_IICA0_Master_Send UserName="R_IICA0_Master_Send" LibName="R_IICAn_Master_Send" InUse="" /&gt;
-            &lt;R_IICA0_Master_Receive UserName="R_IICA0_Master_Receive" LibName="R_IICAn_Master_Receive" InUse="" /&gt;
-            &lt;R_IICA0_Slave_Send UserName="R_IICA0_Slave_Send" LibName="R_IICAn_Slave_Send" InUse="" /&gt;
-            &lt;R_IICA0_Slave_Receive UserName="R_IICA0_Slave_Receive" LibName="R_IICAn_Slave_Receive" InUse="" /&gt;
-            &lt;R_IICA0_Stop UserName="R_IICA0_Stop" LibName="R_IICAn_Stop" InUse="" /&gt;
-            &lt;R_IICA0_StopCondition UserName="R_IICA0_StopCondition" LibName="R_IICAn_StopCondition" InUse="" /&gt;
-            &lt;R_IICA0_Set_SnoozeOn UserName="R_IICA0_Set_SnoozeOn" LibName="R_IICAn_Set_SnoozeOn" InUse="" /&gt;
-            &lt;R_IICA0_Set_SnoozeOff UserName="R_IICA0_Set_SnoozeOff" LibName="R_IICAn_Set_SnoozeOff" InUse="" /&gt;
-            &lt;R_IICA0_Set_PowerOff UserName="R_IICA0_Set_PowerOff" LibName="R_IICAn_Set_PowerOff" InUse="" /&gt;
+            &lt;R_IICA0_Create UserName="R_IICA0_Create" LibName="R_IICAn_Create" InUse="1" Init="1" InitMode="" /&gt;
+            &lt;R_IICA0_Master_Send UserName="R_IICA0_Master_Send" LibName="R_IICAn_Master_Send" InUse="0" /&gt;
+            &lt;R_IICA0_Master_Receive UserName="R_IICA0_Master_Receive" LibName="R_IICAn_Master_Receive" InUse="0" /&gt;
+            &lt;R_IICA0_Slave_Send UserName="R_IICA0_Slave_Send" LibName="R_IICAn_Slave_Send" InUse="1" /&gt;
+            &lt;R_IICA0_Slave_Receive UserName="R_IICA0_Slave_Receive" LibName="R_IICAn_Slave_Receive" InUse="1" /&gt;
+            &lt;R_IICA0_Stop UserName="R_IICA0_Stop" LibName="R_IICAn_Stop" InUse="1" /&gt;
+            &lt;R_IICA0_StopCondition UserName="R_IICA0_StopCondition" LibName="R_IICAn_StopCondition" InUse="0" /&gt;
+            &lt;R_IICA0_Set_SnoozeOn UserName="R_IICA0_Set_SnoozeOn" LibName="R_IICAn_Set_SnoozeOn" InUse="0" /&gt;
+            &lt;R_IICA0_Set_SnoozeOff UserName="R_IICA0_Set_SnoozeOff" LibName="R_IICAn_Set_SnoozeOff" InUse="0" /&gt;
+            &lt;R_IICA0_Set_PowerOff UserName="R_IICA0_Set_PowerOff" LibName="R_IICAn_Set_PowerOff" InUse="0" /&gt;
           &lt;/IICA0&gt;
         &lt;/r_cg_serial.c&gt;
-        &lt;r_cg_serial_user.c UserName="r_cg_serial_user.c" LibName="_user.c" InUse="0"&gt;
+        &lt;r_cg_serial_user.c UserName="r_cg_serial_user.c" LibName="_user.c" InUse="1"&gt;
           &lt;Type R_SAUn_Create_UserInit="void R_SAUn_Create_UserInit(void)" R_UARTn_Interrupt_Receive="__interrupt static void R_UARTn_Interrupt_Receive(void)" R_UARTn_Interrupt_Error="__interrupt static void R_UARTn_Interrupt_Error(void)" R_UARTn_Interrupt_Send="__interrupt static void R_UARTn_Interrupt_Send(void)" R_UARTn_Callback_SendEnd="static void R_UARTn_Callback_SendEnd(void)" R_UARTn_Callback_ReceiveEnd="static void R_UARTn_Callback_ReceiveEnd(void)" R_UARTn_Callback_Error="static void R_UARTn_Callback_Error(uint8_t err_type)" R_UARTn_Callback_SoftwareOverRun="static void R_UARTn_Callback_SoftwareOverRun(uint16_t rx_data)" R_CSIn_Interrupt="__interrupt static void R_CSIn_Interrupt(void)" R_CSIn_Callback_ReceiveEnd="static void R_CSIn_Callback_ReceiveEnd(void)" R_CSIn_Callback_Error="static void R_CSIn_Callback_Error(uint8_t err_type)" R_CSIn_Callback_SendEnd="static void R_CSIn_Callback_SendEnd(void)" R_IICn_Interrupt="__interrupt static void R_IICn_Interrupt(void)" R_IICn_Callback_Master_ReceiveEnd="static void R_IICn_Callback_Master_ReceiveEnd(void)" R_IICn_Callback_Master_SendEnd="static void R_IICn_Callback_Master_SendEnd(void)" R_IICn_Callback_Master_Error="static void R_IICn_Callback_Master_Error(MD_STATUS flag)" IICn_MasterSendEndCallback="static void IICn_MasterSendEndCallback(void)" IICn_MasterReceiveEndCallback="static void IICn_MasterReceiveEndCallback(void)" IICn_MasterErrorCallback="static void IICn_MasterErrorCallback(MD_STATUS flag)" IICn_SlaveErrorCallback="static void IICn_SlaveErrorCallback(MD_STATUS flag)" IICn_GetStopConditionCallback="static void IICn_GetStopConditionCallback(void)" R_IICAn_Create_UserInit="void R_IICAn_Create_UserInit(void)" r_iican_interrupt="__interrupt static void r_iican_interrupt(void)" r_iican_callback_master_sendend="static void r_iican_callback_master_sendend(void)" r_iican_callback_master_receiveend="static void r_iican_callback_master_receiveend(void)" r_iican_callback_slave_sendend="static void r_iican_callback_slave_sendend(void)" r_iican_callback_slave_receiveend="static void r_iican_callback_slave_receiveend(void)" r_iican_callback_master_error="static void r_iican_callback_master_error(MD_STATUS flag)" r_iican_callback_slave_error="static void r_iican_callback_slave_error(MD_STATUS flag)" r_iican_callback_getstopcondition="static void r_iican_callback_getstopcondition(void)" /&gt;
           &lt;SAU0 InUse=""&gt;
             &lt;R_SAU0_Create_UserInit UserName="R_SAU0_Create_UserInit" LibName="R_SAUn_Create_UserInit" InUse="0" /&gt;
@@ -3569,18 +3614,18 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
             &lt;/IIC01&gt;
           &lt;/SAU0&gt;
           &lt;IICA0 InUse=""&gt;
-            &lt;R_IICA0_Create_UserInit UserName="R_IICA0_Create_UserInit" LibName="R_IICAn_Create_UserInit" InUse="" /&gt;
-            &lt;r_iica0_interrupt UserName="r_iica0_interrupt" INTHandle="" LibName="r_iican_interrupt" InUse="" /&gt;
-            &lt;r_iica0_callback_master_sendend UserName="r_iica0_callback_master_sendend" LibName="r_iican_callback_master_sendend" InUse="" /&gt;
-            &lt;r_iica0_callback_master_receiveend UserName="r_iica0_callback_master_receiveend" LibName="r_iican_callback_master_receiveend" InUse="" /&gt;
-            &lt;r_iica0_callback_slave_sendend UserName="r_iica0_callback_slave_sendend" LibName="r_iican_callback_slave_sendend" InUse="" /&gt;
-            &lt;r_iica0_callback_slave_receiveend UserName="r_iica0_callback_slave_receiveend" LibName="r_iican_callback_slave_receiveend" InUse="" /&gt;
-            &lt;r_iica0_callback_master_error UserName="r_iica0_callback_master_error" LibName="r_iican_callback_master_error" InUse="" /&gt;
-            &lt;r_iica0_callback_slave_error UserName="r_iica0_callback_slave_error" LibName="r_iican_callback_slave_error" InUse="" /&gt;
-            &lt;r_iica0_callback_getstopcondition UserName="r_iica0_callback_getstopcondition" LibName="r_iican_callback_getstopcondition" InUse="" /&gt;
+            &lt;R_IICA0_Create_UserInit UserName="R_IICA0_Create_UserInit" LibName="R_IICAn_Create_UserInit" InUse="0" /&gt;
+            &lt;r_iica0_interrupt UserName="r_iica0_interrupt" INTHandle="" LibName="r_iican_interrupt" InUse="1" /&gt;
+            &lt;r_iica0_callback_master_sendend UserName="r_iica0_callback_master_sendend" LibName="r_iican_callback_master_sendend" InUse="0" /&gt;
+            &lt;r_iica0_callback_master_receiveend UserName="r_iica0_callback_master_receiveend" LibName="r_iican_callback_master_receiveend" InUse="0" /&gt;
+            &lt;r_iica0_callback_slave_sendend UserName="r_iica0_callback_slave_sendend" LibName="r_iican_callback_slave_sendend" InUse="1" /&gt;
+            &lt;r_iica0_callback_slave_receiveend UserName="r_iica0_callback_slave_receiveend" LibName="r_iican_callback_slave_receiveend" InUse="1" /&gt;
+            &lt;r_iica0_callback_master_error UserName="r_iica0_callback_master_error" LibName="r_iican_callback_master_error" InUse="0" /&gt;
+            &lt;r_iica0_callback_slave_error UserName="r_iica0_callback_slave_error" LibName="r_iican_callback_slave_error" InUse="1" /&gt;
+            &lt;r_iica0_callback_getstopcondition UserName="r_iica0_callback_getstopcondition" LibName="r_iican_callback_getstopcondition" InUse="0" /&gt;
           &lt;/IICA0&gt;
         &lt;/r_cg_serial_user.c&gt;
-        &lt;r_cg_serial.h UserName="r_cg_serial.h" LibName=".h" InUse="0" /&gt;
+        &lt;r_cg_serial.h UserName="r_cg_serial.h" LibName=".h" InUse="1" /&gt;
       &lt;/Serial&gt;
       &lt;ADC&gt;
         &lt;r_cg_adc.c UserName="r_cg_adc.c" LibName=".c" InUse=""&gt;
@@ -3762,8 +3807,8 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
         &lt;cg_security3 Name="cg_security3" Value="00" /&gt;
         &lt;cg_security0 Name="cg_security0" Value="00" /&gt;
         &lt;cg_security1 Name="cg_security1" Value="00" /&gt;
+        &lt;cg_ocd_ram_size Name="cg_ocd_ram_size" Value="512" /&gt;
         &lt;clock_option Name="clock_option" Value="E0" /&gt;
-        &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
         &lt;pior_value Name="pior_value" Value="00" /&gt;
         &lt;cg_option Name="cg_option" Value="84" /&gt;
         &lt;cg_security8 Name="cg_security8" Value="00" /&gt;
@@ -3772,7 +3817,7 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
         &lt;cg_onchip Name="cg_onchip" Value="" /&gt;
         &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
         &lt;cg_iawctl_value Name="cg_iawctl_value" Value="00" /&gt;
-        &lt;cg_ocd_ram_size Name="cg_ocd_ram_size" Value="512" /&gt;
+        &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
         &lt;wdt_option Name="wdt_option" Value="FF" /&gt;
         &lt;rrm Name="rrm" Value="03E00" /&gt;
       &lt;/GlobleUserTag&gt;
@@ -3789,12 +3834,12 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       &lt;INTP Accelerate="No" MacroName="INTP" /&gt;
       &lt;KEY Chip="RL78G12_20pin,RL78G12_24pin," MacroName="KEY" /&gt;
     &lt;/INTC&gt;
-    &lt;Serial SetFlag="False" HelpID="serial" NeedRefresh="False"&gt;
+    &lt;Serial SetFlag="True" HelpID="serial" NeedRefresh="False"&gt;
       &lt;SAU0 Chip="RL78G12_20pin,RL78G12_24pin" Accelerate="No" MacroName="SAU" Channel="0" SetFlag="False" TabEnable="True"&gt;
         &lt;Channel0 UART="0" CSI="00" IIC="00" Channel="0" /&gt;
         &lt;Channel1 UART="0" CSI="01" IIC="01" Channel="1" /&gt;
       &lt;/SAU0&gt;
-      &lt;IICA0 Accelerate="No" MacroName="IICA" Channel="0" TabEnable="True" /&gt;
+      &lt;IICA0 Accelerate="No" MacroName="IICA" Channel="0" TabEnable="True" SetFlag="True" /&gt;
     &lt;/Serial&gt;
     &lt;ADC SetFlag="" HelpID="adc" NeedRefresh="False"&gt;
       &lt;ADC SetFlag="" MacroName="ADC" /&gt;
@@ -3887,7 +3932,19 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       &lt;/Channel1&gt;
     &lt;/SAU0&gt;
     &lt;IICA0&gt;
-      &lt;setting name="Mode" value="Unused" /&gt;
+      &lt;setting name="TransferMode" value="Slave" /&gt;
+      &lt;Slave0&gt;
+        &lt;setting name="ClockSetting" value="fCLKHalf" /&gt;
+        &lt;setting name="SlaveAddress" value="0x30" /&gt;
+        &lt;setting name="Transfer_speed" value="standard" /&gt;
+        &lt;setting name="Digital_filter" value="unused" /&gt;
+        &lt;setting name="Interrupt_Priority" value="3" /&gt;
+        &lt;setting name="CallSlaveReceptionEnd" value="Checked" /&gt;
+        &lt;setting name="CallSlaveTransmitEnd" value="Checked" /&gt;
+        &lt;setting name="CallSlaveError" value="Checked" /&gt;
+        &lt;setting name="SLAVE_WAKEUP_MODE_ON" value="false" /&gt;
+        &lt;setting name="SLAVE_WAKEUP_MODE_OFF" value="true" /&gt;
+      &lt;/Slave0&gt;
     &lt;/IICA0&gt;
     &lt;WDT&gt;
       &lt;setting name="Operation" value="used" /&gt;

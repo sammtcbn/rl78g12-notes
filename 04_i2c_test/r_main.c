@@ -18,11 +18,11 @@
 ***********************************************************************************************************************/
 
 /***********************************************************************************************************************
-* File Name    : r_systeminit.c
+* File Name    : r_main.c
 * Version      : CodeGenerator for RL78/G12 V2.04.07.02 [17 Nov 2023]
 * Device(s)    : R5F1026A
 * Tool-Chain   : CCRL
-* Description  : This file implements system initializing function.
+* Description  : This file implements main function.
 * Creation Date: 2024/9/10
 ***********************************************************************************************************************/
 
@@ -31,6 +31,7 @@ Includes
 ***********************************************************************************************************************/
 #include "r_cg_macrodriver.h"
 #include "r_cg_cgc.h"
+#include "r_cg_serial.h"
 #include "r_cg_wdt.h"
 /* Start user code for include. Do not edit comment generated here */
 /* End user code. Do not edit comment generated here */
@@ -47,33 +48,36 @@ Global variables and functions
 ***********************************************************************************************************************/
 /* Start user code for global. Do not edit comment generated here */
 /* End user code. Do not edit comment generated here */
+void R_MAIN_UserInit(void);
 
 /***********************************************************************************************************************
-* Function Name: R_Systeminit
-* Description  : This function initializes every macro.
+* Function Name: main
+* Description  : This function implements main function.
 * Arguments    : None
 * Return Value : None
 ***********************************************************************************************************************/
-void R_Systeminit(void)
+void main(void)
 {
-    PIOR = 0x00U;
-    R_CGC_Get_ResetSource();
-    R_CGC_Create();
-    R_WDT_Create();
-    IAWCTL = 0x00U;
+    R_MAIN_UserInit();
+    /* Start user code. Do not edit comment generated here */
+    while (1U)
+    {
+        ;
+    }
+    /* End user code. Do not edit comment generated here */
 }
 
-
 /***********************************************************************************************************************
-* Function Name: hdwinit
-* Description  : This function initializes hardware setting.
+* Function Name: R_MAIN_UserInit
+* Description  : This function adds user code before implementing main function.
 * Arguments    : None
 * Return Value : None
 ***********************************************************************************************************************/
-void hdwinit(void)
+void R_MAIN_UserInit(void)
 {
-    DI();
-    R_Systeminit();
+    /* Start user code. Do not edit comment generated here */
+    EI();
+    /* End user code. Do not edit comment generated here */
 }
 
 /* Start user code for adding. Do not edit comment generated here */
