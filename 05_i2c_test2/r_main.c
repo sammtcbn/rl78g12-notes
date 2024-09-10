@@ -47,6 +47,10 @@ Pragma directive
 Global variables and functions
 ***********************************************************************************************************************/
 /* Start user code for global. Do not edit comment generated here */
+extern uint8_t rx_end;
+extern uint8_t tx_end;
+uint8_t g_read_value[250];  // buffer I2C read
+uint8_t g_write_value[250]; // buffer I2C write
 /* End user code. Do not edit comment generated here */
 void R_MAIN_UserInit(void);
 
@@ -58,11 +62,27 @@ void R_MAIN_UserInit(void);
 ***********************************************************************************************************************/
 void main(void)
 {
-    R_MAIN_UserInit();
+    R_MAIN_UserInit();	
     /* Start user code. Do not edit comment generated here */
+	R_IICA0_Slave_Receive(&g_read_value[0],1);
+	g_write_value[0] = 0x55;
+	R_IICA0_Slave_Send(&g_write_value[0],1);
     while (1U)
     {
-        ;
+        if (rx_end == 1) // 1 byte IIC data recieved?
+		{
+			rx_end = 0; //clr recieve flag
+			//set recieve another IIC data
+			R_IICA0_Slave_Receive(&g_read_value[0],1);
+			
+			if (tx_end == 1) // 1 byte IIC data transmit?
+			{
+				tx_end = 0;
+				g_write_value[0] = 0x55;
+				//set receive another 250 IIC data
+				R_IICA0_Slave_Send(&g_write_value[0],1);
+			}
+		}
     }
     /* End user code. Do not edit comment generated here */
 }

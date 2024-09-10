@@ -53,6 +53,10 @@ extern volatile uint16_t  g_iica0_rx_len;              /* iica0 receive data cou
 extern volatile uint8_t * gp_iica0_tx_address;         /* iica0 send buffer address */
 extern volatile uint16_t  g_iica0_tx_cnt;              /* iica0 send data count */
 /* Start user code for global. Do not edit comment generated here */
+uint8_t rx_end;
+uint8_t tx_end;
+extern uint8_t g_read_value[250];
+extern uint8_t g_write_value[250];
 /* End user code. Do not edit comment generated here */
 
 /***********************************************************************************************************************
@@ -193,6 +197,7 @@ static void r_iica0_callback_slave_error(MD_STATUS flag)
 static void r_iica0_callback_slave_receiveend(void)
 {
     /* Start user code. Do not edit comment generated here */
+	rx_end = 1;
     /* End user code. Do not edit comment generated here */
 }
 
@@ -205,6 +210,7 @@ static void r_iica0_callback_slave_receiveend(void)
 static void r_iica0_callback_slave_sendend(void)
 {
     /* Start user code. Do not edit comment generated here */
+	tx_end = 1;
     /* End user code. Do not edit comment generated here */
 }
 
