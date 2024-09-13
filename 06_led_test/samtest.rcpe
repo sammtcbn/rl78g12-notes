@@ -27,9 +27,8 @@
       </Category>
     </Files>
     <DebugOptions>
-      <DebugTool>Simulator</DebugTool>
       <ConnectSettings>
-        <MainClock>4000000</MainClock>
+        <MainClock>0</MainClock>
       </ConnectSettings>
       <DebugToolSettings />
     </DebugOptions>
@@ -215,7 +214,7 @@
       &lt;/Effect&gt;
     &lt;/IICA0&gt;
     &lt;ProjectName Name="PrjName" Text="samtest" /&gt;
-    &lt;ProjectPath Name="PrjPath" Text="Z:\reposam\rl78g12-notes\01_pure" /&gt;
+    &lt;ProjectPath Name="PrjPath" Text="Z:\reposam\rl78g12-notes\06_led_test" /&gt;
     &lt;ProjectKind Name="PrjKind" Text="Project78K0R" /&gt;
     &lt;DeviceName Name="DeviceName" Fixed="" Text="RL78G12" /&gt;
     &lt;MCUName Name="MCUName" Text="RL78G12_20pin" /&gt;
@@ -913,8 +912,8 @@
         &lt;cg_security3 Name="cg_security3" Value="00" /&gt;
         &lt;cg_security0 Name="cg_security0" Value="00" /&gt;
         &lt;cg_security1 Name="cg_security1" Value="00" /&gt;
+        &lt;cg_ocd_ram_size Name="cg_ocd_ram_size" Value="512" /&gt;
         &lt;clock_option Name="clock_option" Value="E0" /&gt;
-        &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
         &lt;pior_value Name="pior_value" Value="00" /&gt;
         &lt;cg_option Name="cg_option" Value="84" /&gt;
         &lt;cg_security8 Name="cg_security8" Value="00" /&gt;
@@ -923,7 +922,7 @@
         &lt;cg_onchip Name="cg_onchip" Value="" /&gt;
         &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
         &lt;cg_iawctl_value Name="cg_iawctl_value" Value="00" /&gt;
-        &lt;cg_ocd_ram_size Name="cg_ocd_ram_size" Value="512" /&gt;
+        &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
         &lt;wdt_option Name="wdt_option" Value="FF" /&gt;
         &lt;rrm Name="rrm" Value="03E00" /&gt;
       &lt;/GlobleUserTag&gt;

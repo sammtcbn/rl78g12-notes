@@ -47,6 +47,7 @@ Pragma directive
 Global variables and functions
 ***********************************************************************************************************************/
 /* Start user code for global. Do not edit comment generated here */
+#define  PIN_OUT_LED  (P2_bit.no0)
 /* End user code. Do not edit comment generated here */
 void R_MAIN_UserInit(void);
 
@@ -62,7 +63,8 @@ void main(void)
     /* Start user code. Do not edit comment generated here */
     while (1U)
     {
-        ;
+        PIN_OUT_LED = 0;
+        PIN_OUT_LED = 1;
     }
     /* End user code. Do not edit comment generated here */
 }
