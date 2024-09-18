@@ -127,6 +127,27 @@
       <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
       <ParentItem>21a3cd0b-1c4d-4edf-bdd0-6fe3a645e099</ParentItem>
     </Instance>
+    <Instance Guid="0297d488-e071-42de-a8a1-db8b713ec8e8">
+      <Name>r_cg_timer.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_timer.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>21a3cd0b-1c4d-4edf-bdd0-6fe3a645e099</ParentItem>
+    </Instance>
+    <Instance Guid="624b4055-186a-482b-bb72-76cd335033cf">
+      <Name>r_cg_timer_user.c</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_timer_user.c</RelativePath>
+      <TreeImageGuid>941832c1-fc3b-4e1b-94e8-01ea17128b42</TreeImageGuid>
+      <ParentItem>21a3cd0b-1c4d-4edf-bdd0-6fe3a645e099</ParentItem>
+    </Instance>
+    <Instance Guid="4e266004-707b-45d6-91f4-1df7f8a7466f">
+      <Name>r_cg_timer.h</Name>
+      <Type>File</Type>
+      <RelativePath>r_cg_timer.h</RelativePath>
+      <TreeImageGuid>03cad1e8-2eb3-4cde-a8a3-982423631122</TreeImageGuid>
+      <ParentItem>21a3cd0b-1c4d-4edf-bdd0-6fe3a645e099</ParentItem>
+    </Instance>
   </Class>
   <Class Guid="fb98844b-2c27-4275-9804-f6e63e204da0">
     <Instance Guid="fb98844b-2c27-4275-9804-f6e63e204da0">
@@ -193,7 +214,11 @@
       <SourceItemType8>CSource</SourceItemType8>
       <SourceItemGuid9>ed28aa9b-90d2-462e-a938-d12b3befbf6e</SourceItemGuid9>
       <SourceItemType9>CSource</SourceItemType9>
-      <SourceItemCount>10</SourceItemCount>
+      <SourceItemGuid10>0297d488-e071-42de-a8a1-db8b713ec8e8</SourceItemGuid10>
+      <SourceItemType10>CSource</SourceItemType10>
+      <SourceItemGuid11>624b4055-186a-482b-bb72-76cd335033cf</SourceItemGuid11>
+      <SourceItemType11>CSource</SourceItemType11>
+      <SourceItemCount>12</SourceItemCount>
       <LastDeviceChangedCounter>0</LastDeviceChangedCounter>
       <LastDeviceNameOnPG>R5F1026A</LastDeviceNameOnPG>
       <LastDeviceChangedCounterOnPG>0</LastDeviceChangedCounterOnPG>
@@ -1047,6 +1072,18 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       <ItemAddTime>638618455525047833</ItemAddTime>
       <ItemAddTimeCount>12</ItemAddTimeCount>
     </Instance>
+    <Instance Guid="0297d488-e071-42de-a8a1-db8b713ec8e8">
+      <ItemAddTime>638622732951189127</ItemAddTime>
+      <ItemAddTimeCount>0</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="624b4055-186a-482b-bb72-76cd335033cf">
+      <ItemAddTime>638622732951189127</ItemAddTime>
+      <ItemAddTimeCount>1</ItemAddTimeCount>
+    </Instance>
+    <Instance Guid="4e266004-707b-45d6-91f4-1df7f8a7466f">
+      <ItemAddTime>638622732951189127</ItemAddTime>
+      <ItemAddTimeCount>2</ItemAddTimeCount>
+    </Instance>
     <Instance Guid="0b7e78c3-aadd-45ee-9f9d-ffac6141eeb2">
       <TimeTagModified-SourceItem0--0>-8584756699550905530</TimeTagModified-SourceItem0--0>
       <SourceItem0-IsLockedByUser>False</SourceItem0-IsLockedByUser>
@@ -1090,6 +1127,14 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       <SourceItem9-IsLockedByUser>False</SourceItem9-IsLockedByUser>
       <SourceItem9-BuildingTarget-0>True</SourceItem9-BuildingTarget-0>
       <SourceItem9-IndividualCompileOption-0>False</SourceItem9-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem10--0>-8584749591903586681</TimeTagModified-SourceItem10--0>
+      <SourceItem10-IsLockedByUser>False</SourceItem10-IsLockedByUser>
+      <SourceItem10-BuildingTarget-0>True</SourceItem10-BuildingTarget-0>
+      <SourceItem10-IndividualCompileOption-0>False</SourceItem10-IndividualCompileOption-0>
+      <TimeTagModified-SourceItem11--0>-8584749591903556522</TimeTagModified-SourceItem11--0>
+      <SourceItem11-IsLockedByUser>False</SourceItem11-IsLockedByUser>
+      <SourceItem11-BuildingTarget-0>True</SourceItem11-BuildingTarget-0>
+      <SourceItem11-IndividualCompileOption-0>False</SourceItem11-IndividualCompileOption-0>
     </Instance>
   </Class>
   <Class Guid="44fa27c9-0aa0-4297-bd3b-2c5c5bdb8881">
@@ -1703,94 +1748,10 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       <PinConfigTopViewPropertyFunctionDisplay>DisplayAll</PinConfigTopViewPropertyFunctionDisplay>
     </Instance>
     <Instance Guid="ba6251f6-617d-42ff-9ebd-1dd7a0d34100">
-      <KeyDatasRowCount>20,17,66,0,0</KeyDatasRowCount>
-      <KeyUserAddedColumnCount>0</KeyUserAddedColumnCount>
-      <KeyPinGridData0>Free,-,-,,</KeyPinGridData0>
-      <KeyPinGridData1>Free,-,-,,</KeyPinGridData1>
-      <KeyPinGridData2>Free,-,-,,</KeyPinGridData2>
-      <KeyPinGridData3>Free,-,-,,</KeyPinGridData3>
-      <KeyPinGridData4>Free,-,-,,</KeyPinGridData4>
-      <KeyPinGridData5>Free,-,-,,</KeyPinGridData5>
-      <KeyPinGridData6>Free,-,-,,</KeyPinGridData6>
-      <KeyPinGridData7>Free,-,-,,</KeyPinGridData7>
-      <KeyPinGridData8>Free,-,-,,</KeyPinGridData8>
-      <KeyPinGridData9>Free,-,-,,</KeyPinGridData9>
-      <KeyPinGridData10>Free,-,-,,</KeyPinGridData10>
-      <KeyPinGridData11>Free,-,-,,</KeyPinGridData11>
-      <KeyPinGridData12>Free,-,-,,</KeyPinGridData12>
-      <KeyPinGridData13>Free,-,-,,</KeyPinGridData13>
-      <KeyPinGridData14>Free,-,-,,</KeyPinGridData14>
-      <KeyPinGridData15>Free,-,-,,</KeyPinGridData15>
-      <KeyPinGridData16>Free,-,-,,</KeyPinGridData16>
-      <KeyPinGridData17>Free,-,-,,</KeyPinGridData17>
-      <KeyPinGridData18>Free,-,-,,</KeyPinGridData18>
-      <KeyPinGridData19>Free,-,-,,</KeyPinGridData19>
-      <KeyMacGridData0>Free,-,-,,</KeyMacGridData0>
-      <KeyMacGridData1>Free,-,-,,</KeyMacGridData1>
-      <KeyMacGridData2>Free,-,-,,</KeyMacGridData2>
-      <KeyMacGridData3>Free,-,-,,</KeyMacGridData3>
-      <KeyMacGridData4>Free,-,-,,</KeyMacGridData4>
-      <KeyMacGridData5>Free,-,-,,</KeyMacGridData5>
-      <KeyMacGridData6>Free,-,-,,</KeyMacGridData6>
-      <KeyMacGridData7>Free,-,-,,</KeyMacGridData7>
-      <KeyMacGridData8>Free,-,-,,</KeyMacGridData8>
-      <KeyMacGridData9>Free,-,-,,</KeyMacGridData9>
-      <KeyMacGridData10>Free,-,-,,</KeyMacGridData10>
-      <KeyMacGridData11>Free,-,-,,</KeyMacGridData11>
-      <KeyMacGridData12>Free,-,-,,</KeyMacGridData12>
-      <KeyMacGridData13>Free,-,-,,</KeyMacGridData13>
-      <KeyMacGridData14>Free,-,-,,</KeyMacGridData14>
-      <KeyMacGridData15>Free,-,-,,</KeyMacGridData15>
-      <KeyMacGridData16>Free,-,-,,</KeyMacGridData16>
-      <KeyMacGridData17>Free,-,-,,</KeyMacGridData17>
-      <KeyMacGridData18>Free,-,-,,</KeyMacGridData18>
-      <KeyMacGridData19>Free,-,-,,</KeyMacGridData19>
-      <KeyMacGridData20>Free,-,-,,</KeyMacGridData20>
-      <KeyMacGridData21>Free,-,-,,</KeyMacGridData21>
-      <KeyMacGridData22>Free,-,-,,</KeyMacGridData22>
-      <KeyMacGridData23>Free,-,-,,</KeyMacGridData23>
-      <KeyMacGridData24>Free,-,-,,</KeyMacGridData24>
-      <KeyMacGridData25>Free,-,-,,</KeyMacGridData25>
-      <KeyMacGridData26>Free,-,-,,</KeyMacGridData26>
-      <KeyMacGridData27>Free,-,-,,</KeyMacGridData27>
-      <KeyMacGridData28>Free,-,-,,</KeyMacGridData28>
-      <KeyMacGridData29>Free,-,-,,</KeyMacGridData29>
-      <KeyMacGridData30>Free,-,-,,</KeyMacGridData30>
-      <KeyMacGridData31>Free,-,-,,</KeyMacGridData31>
-      <KeyMacGridData32>Free,-,-,,</KeyMacGridData32>
-      <KeyMacGridData33>Free,-,-,,</KeyMacGridData33>
-      <KeyMacGridData34>Free,-,-,,</KeyMacGridData34>
-      <KeyMacGridData35>Free,-,-,,</KeyMacGridData35>
-      <KeyMacGridData36>Free,-,-,,</KeyMacGridData36>
-      <KeyMacGridData37>Free,-,-,,</KeyMacGridData37>
-      <KeyMacGridData38>Free,-,-,,</KeyMacGridData38>
-      <KeyMacGridData39>Free,-,-,,</KeyMacGridData39>
-      <KeyMacGridData40>Free,-,-,,</KeyMacGridData40>
-      <KeyMacGridData41>Free,-,-,,</KeyMacGridData41>
-      <KeyMacGridData42>Free,-,-,,</KeyMacGridData42>
-      <KeyMacGridData43>Free,-,-,,</KeyMacGridData43>
-      <KeyMacGridData44>Free,-,-,,</KeyMacGridData44>
-      <KeyMacGridData45>Free,-,-,,</KeyMacGridData45>
-      <KeyMacGridData46>Free,-,-,,</KeyMacGridData46>
-      <KeyMacGridData47>Free,-,-,,</KeyMacGridData47>
-      <KeyMacGridData48>Free,-,-,,</KeyMacGridData48>
-      <KeyMacGridData49>Free,-,-,,</KeyMacGridData49>
-      <KeyMacGridData50>Free,-,-,,</KeyMacGridData50>
-      <KeyMacGridData51>Free,-,-,,</KeyMacGridData51>
-      <KeyMacGridData52>Free,-,-,,</KeyMacGridData52>
-      <KeyMacGridData53>Free,-,-,,</KeyMacGridData53>
-      <KeyMacGridData54>Free,-,-,,</KeyMacGridData54>
-      <KeyMacGridData55>Free,-,-,,</KeyMacGridData55>
-      <KeyMacGridData56>Free,-,-,,</KeyMacGridData56>
-      <KeyMacGridData57>Free,-,-,,</KeyMacGridData57>
-      <KeyMacGridData58>Free,-,-,,</KeyMacGridData58>
-      <KeyMacGridData59>Free,-,-,,</KeyMacGridData59>
-      <KeyMacGridData60>Free,-,-,,</KeyMacGridData60>
-      <KeyMacGridData61>Free,-,-,,</KeyMacGridData61>
-      <KeyMacGridData62>Free,-,-,,</KeyMacGridData62>
-      <KeyMacGridData63>Free,-,-,,</KeyMacGridData63>
-      <KeyMacGridData64>Free,-,-,,</KeyMacGridData64>
-      <KeyMacGridData65>Free,-,-,,</KeyMacGridData65>
+      <KEY_SAVE_CREATED_PROJECT_DATA>True</KEY_SAVE_CREATED_PROJECT_DATA>
+      <KEY_SAVE_DEVICE_CHANGED_COUNTER>0</KEY_SAVE_DEVICE_CHANGED_COUNTER>
+      <FormatVersion>1.0</FormatVersion>
+      <KeyExtPartsCount>0</KeyExtPartsCount>
       <KeyPinGridLayout>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
 &lt;SOAP-ENV:Body&gt;
 &lt;a1:UltraGridDisplayLayout id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinGrid/Infragistics4.Win.UltraWinGrid.v12.2"&gt;
@@ -2792,7 +2753,6 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
 &lt;/SOAP-ENV:Body&gt;
 &lt;/SOAP-ENV:Envelope&gt;
 </KeyMacGridLayout>
-      <KeyExtPartsCount>0</KeyExtPartsCount>
       <KeyExtGridLayout>&lt;SOAP-ENV:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:clr="http://schemas.microsoft.com/soap/encoding/clr/1.0" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"&gt;
 &lt;SOAP-ENV:Body&gt;
 &lt;a1:UltraGridDisplayLayout id="ref-1" xmlns:a1="http://schemas.microsoft.com/clr/nsassem/Infragistics.Win.UltraWinGrid/Infragistics4.Win.UltraWinGrid.v12.2"&gt;
@@ -3258,9 +3218,94 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
 &lt;/SOAP-ENV:Body&gt;
 &lt;/SOAP-ENV:Envelope&gt;
 </KeyExtGridLayout>
-      <KeyTopViewZoom />
-      <KeyTopViewAngle />
-      <KeyTopViewPartsCollapsed />
+      <KeyDatasRowCount>20,17,66,0,0</KeyDatasRowCount>
+      <KeyUserAddedColumnCount>0</KeyUserAddedColumnCount>
+      <KeyPinGridData0>P20,O,-,,</KeyPinGridData0>
+      <KeyPinGridData1>Free,-,-,,</KeyPinGridData1>
+      <KeyPinGridData2>Free,-,-,,</KeyPinGridData2>
+      <KeyPinGridData3>TOOL0,I/O,-,,</KeyPinGridData3>
+      <KeyPinGridData4>_RESET,I,-,,</KeyPinGridData4>
+      <KeyPinGridData5>Free,-,-,,</KeyPinGridData5>
+      <KeyPinGridData6>Free,-,-,,</KeyPinGridData6>
+      <KeyPinGridData7>Free,-,-,,</KeyPinGridData7>
+      <KeyPinGridData8>VSS,-,-,,</KeyPinGridData8>
+      <KeyPinGridData9>VDD,-,-,,</KeyPinGridData9>
+      <KeyPinGridData10>Free,-,-,,</KeyPinGridData10>
+      <KeyPinGridData11>Free,-,-,,</KeyPinGridData11>
+      <KeyPinGridData12>Free,-,-,,</KeyPinGridData12>
+      <KeyPinGridData13>Free,-,-,,</KeyPinGridData13>
+      <KeyPinGridData14>Free,-,-,,</KeyPinGridData14>
+      <KeyPinGridData15>Free,-,-,,</KeyPinGridData15>
+      <KeyPinGridData16>Free,-,-,,</KeyPinGridData16>
+      <KeyPinGridData17>Free,-,-,,</KeyPinGridData17>
+      <KeyPinGridData18>Free,-,-,,</KeyPinGridData18>
+      <KeyPinGridData19>Free,-,-,,</KeyPinGridData19>
+      <KeyMacGridData0>Free,-,-,,</KeyMacGridData0>
+      <KeyMacGridData1>Free,-,-,,</KeyMacGridData1>
+      <KeyMacGridData2>Free,-,-,,</KeyMacGridData2>
+      <KeyMacGridData3>Free,-,-,,</KeyMacGridData3>
+      <KeyMacGridData4>Free,-,-,,</KeyMacGridData4>
+      <KeyMacGridData5>Free,-,-,,</KeyMacGridData5>
+      <KeyMacGridData6>Free,-,-,,</KeyMacGridData6>
+      <KeyMacGridData7>Free,-,-,,</KeyMacGridData7>
+      <KeyMacGridData8>Free,-,-,,</KeyMacGridData8>
+      <KeyMacGridData9>TOOL0,I/O,-,,</KeyMacGridData9>
+      <KeyMacGridData10>_RESET,I,-,,</KeyMacGridData10>
+      <KeyMacGridData11>Free,-,-,,</KeyMacGridData11>
+      <KeyMacGridData12>Free,-,-,,</KeyMacGridData12>
+      <KeyMacGridData13>Free,-,-,,</KeyMacGridData13>
+      <KeyMacGridData14>Free,-,-,,</KeyMacGridData14>
+      <KeyMacGridData15>Free,-,-,,</KeyMacGridData15>
+      <KeyMacGridData16>Free,-,-,,</KeyMacGridData16>
+      <KeyMacGridData17>Free,-,-,,</KeyMacGridData17>
+      <KeyMacGridData18>Free,-,-,,</KeyMacGridData18>
+      <KeyMacGridData19>Free,-,-,,</KeyMacGridData19>
+      <KeyMacGridData20>Free,-,-,,</KeyMacGridData20>
+      <KeyMacGridData21>_RESET,I,-,,</KeyMacGridData21>
+      <KeyMacGridData22>Free,-,-,,</KeyMacGridData22>
+      <KeyMacGridData23>Free,-,-,,</KeyMacGridData23>
+      <KeyMacGridData24>Free,-,-,,</KeyMacGridData24>
+      <KeyMacGridData25>Free,-,-,,</KeyMacGridData25>
+      <KeyMacGridData26>Free,-,-,,</KeyMacGridData26>
+      <KeyMacGridData27>Free,-,-,,</KeyMacGridData27>
+      <KeyMacGridData28>Free,-,-,,</KeyMacGridData28>
+      <KeyMacGridData29>Free,-,-,,</KeyMacGridData29>
+      <KeyMacGridData30>Free,-,-,,</KeyMacGridData30>
+      <KeyMacGridData31>Free,-,-,,</KeyMacGridData31>
+      <KeyMacGridData32>Free,-,-,,</KeyMacGridData32>
+      <KeyMacGridData33>P20,O,-,,</KeyMacGridData33>
+      <KeyMacGridData34>Free,-,-,,</KeyMacGridData34>
+      <KeyMacGridData35>Free,-,-,,</KeyMacGridData35>
+      <KeyMacGridData36>Free,-,-,,</KeyMacGridData36>
+      <KeyMacGridData37>Free,-,-,,</KeyMacGridData37>
+      <KeyMacGridData38>Free,-,-,,</KeyMacGridData38>
+      <KeyMacGridData39>Free,-,-,,</KeyMacGridData39>
+      <KeyMacGridData40>Free,-,-,,</KeyMacGridData40>
+      <KeyMacGridData41>Free,-,-,,</KeyMacGridData41>
+      <KeyMacGridData42>Free,-,-,,</KeyMacGridData42>
+      <KeyMacGridData43>Free,-,-,,</KeyMacGridData43>
+      <KeyMacGridData44>_RESET,I,-,,</KeyMacGridData44>
+      <KeyMacGridData45>Free,-,-,,</KeyMacGridData45>
+      <KeyMacGridData46>TOOL0,I/O,-,,</KeyMacGridData46>
+      <KeyMacGridData47>Free,-,-,,</KeyMacGridData47>
+      <KeyMacGridData48>Free,-,-,,</KeyMacGridData48>
+      <KeyMacGridData49>Free,-,-,,</KeyMacGridData49>
+      <KeyMacGridData50>TOOL0,I/O,-,,</KeyMacGridData50>
+      <KeyMacGridData51>_RESET,I,-,,</KeyMacGridData51>
+      <KeyMacGridData52>Free,-,-,,</KeyMacGridData52>
+      <KeyMacGridData53>Free,-,-,,</KeyMacGridData53>
+      <KeyMacGridData54>Free,-,-,,</KeyMacGridData54>
+      <KeyMacGridData55>Free,-,-,,</KeyMacGridData55>
+      <KeyMacGridData56>Free,-,-,,</KeyMacGridData56>
+      <KeyMacGridData57>Free,-,-,,</KeyMacGridData57>
+      <KeyMacGridData58>Free,-,-,,</KeyMacGridData58>
+      <KeyMacGridData59>Free,-,-,,</KeyMacGridData59>
+      <KeyMacGridData60>VSS,-,-,,</KeyMacGridData60>
+      <KeyMacGridData61>VDD,-,-,,</KeyMacGridData61>
+      <KeyMacGridData62>P20,O,-,,</KeyMacGridData62>
+      <KeyMacGridData63>Free,-,-,,</KeyMacGridData63>
+      <KeyMacGridData64>Free,-,-,,</KeyMacGridData64>
+      <KeyMacGridData65>Free,-,-,,</KeyMacGridData65>
       <KEY_SAVE_ALLOCATED_FUNCTION>True</KEY_SAVE_ALLOCATED_FUNCTION>
       <KEY_SAVE_ALLOCATED_FUNCTION_TERMINAL_NUMBER_COLLECTION>7,8,11,12</KEY_SAVE_ALLOCATED_FUNCTION_TERMINAL_NUMBER_COLLECTION>
       <KEY_SAVE_ALLOCATED_FCUNTION_COLLECTION7>7,P122,KR2,X2,EXCLK</KEY_SAVE_ALLOCATED_FCUNTION_COLLECTION7>
@@ -3268,13 +3313,16 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       <KEY_SAVE_ALLOCATED_FCUNTION_COLLECTION11>11,P60,KR4,SCLA0</KEY_SAVE_ALLOCATED_FCUNTION_COLLECTION11>
       <KEY_SAVE_ALLOCATED_FCUNTION_COLLECTION12>12,P61,KR5,SDAA0</KEY_SAVE_ALLOCATED_FCUNTION_COLLECTION12>
       <KEY_SAVE_DEVICE_PIN_LIST_ZOOM>100</KEY_SAVE_DEVICE_PIN_LIST_ZOOM>
-      <KEY_SAVE_COLUMN_WIDTH_PIN_NUMBER>0:78:78,1:77:77,2:216:216,3:61:61,4:40:40,5:50:50,6:160:160,7:210:210,8:210:210,9:210:210,10:100:100</KEY_SAVE_COLUMN_WIDTH_PIN_NUMBER>
-      <KEY_SAVE_COLUMN_WIDTH_MACRO_PARENT>0:98:98,1:245:245,2:42:42,3:44:44,4:121:121,5:120:120,6:85:85</KEY_SAVE_COLUMN_WIDTH_MACRO_PARENT>
-      <KEY_SAVE_COLUMN_WIDTH_MACRO_CHILD>0:98:98,1:77:77,2:77:77,3:216:216,4:61:61,5:40:40,6:50:50,7:160:160,8:210:210,9:210:210,10:210:210,11:100:100</KEY_SAVE_COLUMN_WIDTH_MACRO_CHILD>
-      <KEY_SAVE_COLUMN_WIDTH_EXTERNAL_PARENT>0:98:98,1:100:100,2:43:43,3:150:150</KEY_SAVE_COLUMN_WIDTH_EXTERNAL_PARENT>
-      <KEY_SAVE_COLUMN_WIDTH_EXTERNAL_CHILD>0:98:98,1:78:78,2:77:77,3:216:216,4:61:61,5:40:40,6:50:50,7:160:160,8:210:210,9:210:210,10:210:210</KEY_SAVE_COLUMN_WIDTH_EXTERNAL_CHILD>
-      <KEY_SAVE_CREATED_PROJECT_DATA>True</KEY_SAVE_CREATED_PROJECT_DATA>
-      <KEY_SAVE_DEVICE_CHANGED_COUNTER>0</KEY_SAVE_DEVICE_CHANGED_COUNTER>
+      <KEY_SAVE_COLUMN_WIDTH_PIN_NUMBER>0:78:78,1:77:77,2:216:216,3:61:61,4:40:40,5:50:50,6:160:160,7:210:210,8:198:210,9:210:210,10:100:100</KEY_SAVE_COLUMN_WIDTH_PIN_NUMBER>
+      <KEY_SAVE_COLUMN_WIDTH_MACRO_PARENT>0:92:98,1:245:245,2:42:42,3:44:44,4:121:121,5:115:120,6:84:85</KEY_SAVE_COLUMN_WIDTH_MACRO_PARENT>
+      <KEY_SAVE_COLUMN_WIDTH_MACRO_CHILD>0:92:98,1:77:77,2:77:77,3:216:216,4:61:61,5:40:40,6:50:50,7:160:160,8:210:210,9:198:210,10:210:210,11:100:100</KEY_SAVE_COLUMN_WIDTH_MACRO_CHILD>
+      <KEY_SAVE_COLUMN_WIDTH_EXTERNAL_PARENT>0:92:98,1:100:100,2:43:43,3:144:150</KEY_SAVE_COLUMN_WIDTH_EXTERNAL_PARENT>
+      <KEY_SAVE_COLUMN_WIDTH_EXTERNAL_CHILD>0:92:98,1:78:78,2:77:77,3:216:216,4:61:61,5:40:40,6:50:50,7:160:160,8:210:210,9:198:210,10:210:210</KEY_SAVE_COLUMN_WIDTH_EXTERNAL_CHILD>
+    </Instance>
+    <Instance Guid="aacae7da-f24b-4709-81fa-541016e73641">
+      <KeyTopViewZoom>1</KeyTopViewZoom>
+      <KeyTopViewAngle>0</KeyTopViewAngle>
+      <KeyTopViewPartsCollapsed>False</KeyTopViewPartsCollapsed>
     </Instance>
   </Class>
   <Class Guid="100f3761-3d7e-4559-b1d8-375a0c7bf682">
@@ -3604,7 +3652,7 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       &lt;/Effect&gt;
     &lt;/IICA0&gt;
     &lt;ProjectName Name="PrjName" Text="samtest" /&gt;
-    &lt;ProjectPath Name="PrjPath" Text="Z:\reposam\rl78g12-notes\06_led_test" /&gt;
+    &lt;ProjectPath Name="PrjPath" Text="Z:\reposam\rl78g12-notes\07_led_toggle" /&gt;
     &lt;ProjectKind Name="PrjKind" Text="Project78K0R" /&gt;
     &lt;DeviceName Name="DeviceName" Fixed="" Text="RL78G12" /&gt;
     &lt;MCUName Name="MCUName" Text="RL78G12_20pin" /&gt;
@@ -3650,6 +3698,8 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
     &lt;ProductVersion Name="ProductVersion" Text="4.08.06.01" /&gt;
     &lt;PIOR6Value Name="PIOR6Value" Text="0" /&gt;
     &lt;LinkFileName Name="LinkFileName" Text="" /&gt;
+    &lt;TO02_PWM Name="TO02_PWM" Text="false" /&gt;
+    &lt;TO03_PWM Name="TO03_PWM" Text="false" /&gt;
   &lt;/VAR&gt;
   &lt;DIR&gt;
     &lt;PIN&gt;
@@ -3842,7 +3892,7 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       &lt;TAU&gt;
         &lt;TAU0&gt;
           &lt;Channel0&gt;
-            &lt;INTTM00 InUse="0" ISR="r_tau0_channel0_interrupt" /&gt;
+            &lt;INTTM00 InUse="1" ISR="r_tau0_channel0_interrupt" /&gt;
           &lt;/Channel0&gt;
           &lt;Channel1&gt;
             &lt;INTTM01 InUse="0" ISR="r_tau0_channel1_interrupt" /&gt;
@@ -3966,48 +4016,48 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
         &lt;r_cg_port.h UserName="r_cg_port.h" LibName=".h" InUse="1" /&gt;
       &lt;/PORT&gt;
       &lt;INTC&gt;
-        &lt;r_cg_intc.c UserName="r_cg_intc.c" LibName=".c" InUse=""&gt;
+        &lt;r_cg_intc.c UserName="r_cg_intc.c" LibName=".c" InUse="0"&gt;
           &lt;Type R_INTC_Create="void R_INTC_Create(void)" R_INTCn_Start="void R_INTCn_Start(void)" R_INTCn_Stop="void R_INTCn_Stop(void)" R_KEY_Create="void R_KEY_Create(void)" R_KEY_Start="void R_KEY_Start(void)" R_KEY_Stop="void R_KEY_Stop(void)" /&gt;
           &lt;INTP&gt;
-            &lt;R_INTC_Create UserName="R_INTC_Create" LibName="R_INTC_Create" InUse="" Init="2" InitMode="" /&gt;
+            &lt;R_INTC_Create UserName="R_INTC_Create" LibName="R_INTC_Create" InUse="0" Init="2" InitMode="" /&gt;
             &lt;INTP0&gt;
-              &lt;R_INTC0_Start UserName="R_INTC0_Start" LibName="R_INTCn_Start" InUse="" /&gt;
-              &lt;R_INTC0_Stop UserName="R_INTC0_Stop" LibName="R_INTCn_Stop" InUse="" /&gt;
+              &lt;R_INTC0_Start UserName="R_INTC0_Start" LibName="R_INTCn_Start" InUse="0" /&gt;
+              &lt;R_INTC0_Stop UserName="R_INTC0_Stop" LibName="R_INTCn_Stop" InUse="0" /&gt;
             &lt;/INTP0&gt;
             &lt;INTP1&gt;
-              &lt;R_INTC1_Start UserName="R_INTC1_Start" LibName="R_INTCn_Start" InUse="" /&gt;
-              &lt;R_INTC1_Stop UserName="R_INTC1_Stop" LibName="R_INTCn_Stop" InUse="" /&gt;
+              &lt;R_INTC1_Start UserName="R_INTC1_Start" LibName="R_INTCn_Start" InUse="0" /&gt;
+              &lt;R_INTC1_Stop UserName="R_INTC1_Stop" LibName="R_INTCn_Stop" InUse="0" /&gt;
             &lt;/INTP1&gt;
             &lt;INTP2&gt;
-              &lt;R_INTC2_Start UserName="R_INTC2_Start" LibName="R_INTCn_Start" InUse="" /&gt;
-              &lt;R_INTC2_Stop UserName="R_INTC2_Stop" LibName="R_INTCn_Stop" InUse="" /&gt;
+              &lt;R_INTC2_Start UserName="R_INTC2_Start" LibName="R_INTCn_Start" InUse="0" /&gt;
+              &lt;R_INTC2_Stop UserName="R_INTC2_Stop" LibName="R_INTCn_Stop" InUse="0" /&gt;
             &lt;/INTP2&gt;
             &lt;INTP3&gt;
-              &lt;R_INTC3_Start UserName="R_INTC3_Start" LibName="R_INTCn_Start" InUse="" /&gt;
-              &lt;R_INTC3_Stop UserName="R_INTC3_Stop" LibName="R_INTCn_Stop" InUse="" /&gt;
+              &lt;R_INTC3_Start UserName="R_INTC3_Start" LibName="R_INTCn_Start" InUse="0" /&gt;
+              &lt;R_INTC3_Stop UserName="R_INTC3_Stop" LibName="R_INTCn_Stop" InUse="0" /&gt;
             &lt;/INTP3&gt;
           &lt;/INTP&gt;
           &lt;KEY Chip="RL78G12_20pin,RL78G12_24pin,"&gt;
-            &lt;R_KEY_Create UserName="R_KEY_Create" LibName="R_KEY_Create" InUse="" Init="2" InitMode="" /&gt;
-            &lt;R_KEY_Start UserName="R_KEY_Start" LibName="R_KEY_Start" InUse="" /&gt;
-            &lt;R_KEY_Stop UserName="R_KEY_Stop" LibName="R_KEY_Stop" InUse="" /&gt;
+            &lt;R_KEY_Create UserName="R_KEY_Create" LibName="R_KEY_Create" InUse="0" Init="2" InitMode="" /&gt;
+            &lt;R_KEY_Start UserName="R_KEY_Start" LibName="R_KEY_Start" InUse="0" /&gt;
+            &lt;R_KEY_Stop UserName="R_KEY_Stop" LibName="R_KEY_Stop" InUse="0" /&gt;
           &lt;/KEY&gt;
         &lt;/r_cg_intc.c&gt;
-        &lt;r_cg_intc_user.c UserName="r_cg_intc_user.c" LibName="_user.c" InUse=""&gt;
+        &lt;r_cg_intc_user.c UserName="r_cg_intc_user.c" LibName="_user.c" InUse="0"&gt;
           &lt;Type R_INTC_Create_UserInit="void R_INTC_Create_UserInit(void)" R_INTC0_Interrupt="__interrupt static void r_intc0_interrupt(void)" R_INTC1_Interrupt="__interrupt static void r_intc1_interrupt(void)" R_INTC2_Interrupt="__interrupt static void r_intc2_interrupt(void)" R_INTC3_Interrupt="__interrupt static void r_intc3_interrupt(void)" R_INTC4_Interrupt="__interrupt static void r_intc4_interrupt(void)" R_INTC5_Interrupt="__interrupt static void r_intc5_interrupt(void)" R_KEY_Create_UserInit="void R_KEY_Create_UserInit(void)" R_KEY_Interrupt="__interrupt static void r_key_interrupt(void)" /&gt;
           &lt;INTP&gt;
-            &lt;R_INTC_Create_UserInit UserName="R_INTC_Create_UserInit" LibName="R_INTC_Create_UserInit" InUse="" /&gt;
-            &lt;r_intc0_interrupt UserName="r_intc0_interrupt" LibName="R_INTC0_Interrupt" INTHandle="" InUse="" /&gt;
-            &lt;r_intc1_interrupt UserName="r_intc1_interrupt" LibName="R_INTC1_Interrupt" INTHandle="" InUse="" /&gt;
-            &lt;r_intc2_interrupt UserName="r_intc2_interrupt" LibName="R_INTC2_Interrupt" INTHandle="" InUse="" /&gt;
-            &lt;r_intc3_interrupt UserName="r_intc3_interrupt" LibName="R_INTC3_Interrupt" INTHandle="" InUse="" /&gt;
+            &lt;R_INTC_Create_UserInit UserName="R_INTC_Create_UserInit" LibName="R_INTC_Create_UserInit" InUse="0" /&gt;
+            &lt;r_intc0_interrupt UserName="r_intc0_interrupt" LibName="R_INTC0_Interrupt" INTHandle="" InUse="0" /&gt;
+            &lt;r_intc1_interrupt UserName="r_intc1_interrupt" LibName="R_INTC1_Interrupt" INTHandle="" InUse="0" /&gt;
+            &lt;r_intc2_interrupt UserName="r_intc2_interrupt" LibName="R_INTC2_Interrupt" INTHandle="" InUse="0" /&gt;
+            &lt;r_intc3_interrupt UserName="r_intc3_interrupt" LibName="R_INTC3_Interrupt" INTHandle="" InUse="0" /&gt;
           &lt;/INTP&gt;
           &lt;KEY Chip="RL78G12_20pin,RL78G12_24pin,"&gt;
-            &lt;R_KEY_Create_UserInit UserName="R_KEY_Create_UserInit" LibName="R_KEY_Create_UserInit" InUse="" /&gt;
-            &lt;r_key_interrupt UserName="r_key_interrupt" LibName="R_KEY_Interrupt" INTHandle="" InUse="" /&gt;
+            &lt;R_KEY_Create_UserInit UserName="R_KEY_Create_UserInit" LibName="R_KEY_Create_UserInit" InUse="0" /&gt;
+            &lt;r_key_interrupt UserName="r_key_interrupt" LibName="R_KEY_Interrupt" INTHandle="" InUse="0" /&gt;
           &lt;/KEY&gt;
         &lt;/r_cg_intc_user.c&gt;
-        &lt;r_cg_intc.h UserName="r_cg_intc.h" LibName=".h" InUse="" /&gt;
+        &lt;r_cg_intc.h UserName="r_cg_intc.h" LibName=".h" InUse="0" /&gt;
       &lt;/INTC&gt;
       &lt;Serial&gt;
         &lt;r_cg_serial.c UserName="r_cg_serial.c" LibName=".c" InUse="0"&gt;
@@ -4146,64 +4196,64 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
         &lt;r_cg_adc.h UserName="r_cg_adc.h" LibName=".h" InUse="" /&gt;
       &lt;/ADC&gt;
       &lt;TAU&gt;
-        &lt;r_cg_timer.c UserName="r_cg_timer.c" LibName=".c" InUse=""&gt;
+        &lt;r_cg_timer.c UserName="r_cg_timer.c" LibName=".c" InUse="1"&gt;
           &lt;Type R_TAU_Create="void R_TAU_Create(void)" R_TAU_Set_PowerOff="void R_TAU_Set_PowerOff(void)" R_TAU_Channeln_Start="void R_TAU_Channeln_Start(void)" R_TAU_Channeln_Higher8bits_Start="void R_TAU_Channeln_Higher8bits_Start(void)" R_TAU_Channeln_Lower8bits_Start="void R_TAU_Channeln_Lower8bits_Start(void)" R_TAU_Channeln_Stop="void R_TAU_Channeln_Stop(void)" R_TAU_Channeln_Higher8bits_Stop="void R_TAU_Channeln_Higher8bits_Stop(void)" R_TAU_Channeln_Lower8bits_Stop="void R_TAU_Channeln_Lower8bits_Stop(void)" R_TAU_Channeln_Get_PulseWidth="void R_TAU_Channeln_Get_PulseWidth(uint32_t * const width)" R_TAU_Channeln_Set_SoftwareTriggerOn="void R_TAU_Channeln_Set_SoftwareTriggerOn(void)" /&gt;
           &lt;TAU0&gt;
-            &lt;R_TAU0_Create UserName="R_TAU0_Create" LibName="R_TAU_Create" InUse="" Init="1" InitMode="" /&gt;
-            &lt;R_TAU0_Set_PowerOff UserName="R_TAU0_Set_PowerOff" LibName="R_TAU_Set_PowerOff" InUse="" /&gt;
+            &lt;R_TAU0_Create UserName="R_TAU0_Create" LibName="R_TAU_Create" InUse="1" Init="1" InitMode="" /&gt;
+            &lt;R_TAU0_Set_PowerOff UserName="R_TAU0_Set_PowerOff" LibName="R_TAU_Set_PowerOff" InUse="0" /&gt;
             &lt;Channel0 InUse=""&gt;
-              &lt;R_TAU0_Channel0_Start UserName="R_TAU0_Channel0_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel0_Stop UserName="R_TAU0_Channel0_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel0_Get_PulseWidth UserName="R_TAU0_Channel0_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="" /&gt;
-              &lt;R_TAU0_Channel0_Set_SoftwareTriggerOn UserName="R_TAU0_Channel0_Set_SoftwareTriggerOn" LibName="R_TAU_Channeln_Set_SoftwareTriggerOn" InUse="" /&gt;
+              &lt;R_TAU0_Channel0_Start UserName="R_TAU0_Channel0_Start" LibName="R_TAU_Channeln_Start" InUse="1" /&gt;
+              &lt;R_TAU0_Channel0_Stop UserName="R_TAU0_Channel0_Stop" LibName="R_TAU_Channeln_Stop" InUse="1" /&gt;
+              &lt;R_TAU0_Channel0_Get_PulseWidth UserName="R_TAU0_Channel0_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="0" /&gt;
+              &lt;R_TAU0_Channel0_Set_SoftwareTriggerOn UserName="R_TAU0_Channel0_Set_SoftwareTriggerOn" LibName="R_TAU_Channeln_Set_SoftwareTriggerOn" InUse="0" /&gt;
             &lt;/Channel0&gt;
             &lt;Channel1 InUse=""&gt;
-              &lt;R_TAU0_Channel1_Start UserName="R_TAU0_Channel1_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Higher8bits_Start UserName="R_TAU0_Channel1_Higher8bits_Start" LibName="R_TAU_Channeln_Higher8bits_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Lower8bits_Start UserName="R_TAU0_Channel1_Lower8bits_Start" LibName="R_TAU_Channeln_Lower8bits_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Stop UserName="R_TAU0_Channel1_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Higher8bits_Stop UserName="R_TAU0_Channel1_Higher8bits_Stop" LibName="R_TAU_Channeln_Higher8bits_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Lower8bits_Stop UserName="R_TAU0_Channel1_Lower8bits_Stop" LibName="R_TAU_Channeln_Lower8bits_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel1_Get_PulseWidth UserName="R_TAU0_Channel1_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="" /&gt;
+              &lt;R_TAU0_Channel1_Start UserName="R_TAU0_Channel1_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Higher8bits_Start UserName="R_TAU0_Channel1_Higher8bits_Start" LibName="R_TAU_Channeln_Higher8bits_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Lower8bits_Start UserName="R_TAU0_Channel1_Lower8bits_Start" LibName="R_TAU_Channeln_Lower8bits_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Stop UserName="R_TAU0_Channel1_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Higher8bits_Stop UserName="R_TAU0_Channel1_Higher8bits_Stop" LibName="R_TAU_Channeln_Higher8bits_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Lower8bits_Stop UserName="R_TAU0_Channel1_Lower8bits_Stop" LibName="R_TAU_Channeln_Lower8bits_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel1_Get_PulseWidth UserName="R_TAU0_Channel1_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="0" /&gt;
             &lt;/Channel1&gt;
             &lt;Channel2 InUse=""&gt;
-              &lt;R_TAU0_Channel2_Start UserName="R_TAU0_Channel2_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel2_Stop UserName="R_TAU0_Channel2_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel2_Get_PulseWidth UserName="R_TAU0_Channel2_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="" /&gt;
-              &lt;R_TAU0_Channel2_Set_SoftwareTriggerOn UserName="R_TAU0_Channel2_Set_SoftwareTriggerOn" LibName="R_TAU_Channeln_Set_SoftwareTriggerOn" InUse="" /&gt;
+              &lt;R_TAU0_Channel2_Start UserName="R_TAU0_Channel2_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel2_Stop UserName="R_TAU0_Channel2_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel2_Get_PulseWidth UserName="R_TAU0_Channel2_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="0" /&gt;
+              &lt;R_TAU0_Channel2_Set_SoftwareTriggerOn UserName="R_TAU0_Channel2_Set_SoftwareTriggerOn" LibName="R_TAU_Channeln_Set_SoftwareTriggerOn" InUse="0" /&gt;
             &lt;/Channel2&gt;
             &lt;Channel3 InUse=""&gt;
-              &lt;R_TAU0_Channel3_Start UserName="R_TAU0_Channel3_Start" LibName="R_TAU_Channeln_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Higher8bits_Start UserName="R_TAU0_Channel3_Higher8bits_Start" LibName="R_TAU_Channeln_Higher8bits_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Lower8bits_Start UserName="R_TAU0_Channel3_Lower8bits_Start" LibName="R_TAU_Channeln_Lower8bits_Start" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Stop UserName="R_TAU0_Channel3_Stop" LibName="R_TAU_Channeln_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Higher8bits_Stop UserName="R_TAU0_Channel3_Higher8bits_Stop" LibName="R_TAU_Channeln_Higher8bits_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Lower8bits_Stop UserName="R_TAU0_Channel3_Lower8bits_Stop" LibName="R_TAU_Channeln_Lower8bits_Stop" InUse="" /&gt;
-              &lt;R_TAU0_Channel3_Get_PulseWidth UserName="R_TAU0_Channel3_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="" /&gt;
+              &lt;R_TAU0_Channel3_Start UserName="R_TAU0_Channel3_Start" LibName="R_TAU_Channeln_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Higher8bits_Start UserName="R_TAU0_Channel3_Higher8bits_Start" LibName="R_TAU_Channeln_Higher8bits_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Lower8bits_Start UserName="R_TAU0_Channel3_Lower8bits_Start" LibName="R_TAU_Channeln_Lower8bits_Start" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Stop UserName="R_TAU0_Channel3_Stop" LibName="R_TAU_Channeln_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Higher8bits_Stop UserName="R_TAU0_Channel3_Higher8bits_Stop" LibName="R_TAU_Channeln_Higher8bits_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Lower8bits_Stop UserName="R_TAU0_Channel3_Lower8bits_Stop" LibName="R_TAU_Channeln_Lower8bits_Stop" InUse="0" /&gt;
+              &lt;R_TAU0_Channel3_Get_PulseWidth UserName="R_TAU0_Channel3_Get_PulseWidth" LibName="R_TAU_Channeln_Get_PulseWidth" InUse="0" /&gt;
             &lt;/Channel3&gt;
           &lt;/TAU0&gt;
         &lt;/r_cg_timer.c&gt;
-        &lt;r_cg_timer_user.c UserName="r_cg_timer_user.c" LibName="_user.c" InUse=""&gt;
+        &lt;r_cg_timer_user.c UserName="r_cg_timer_user.c" LibName="_user.c" InUse="1"&gt;
           &lt;Type R_TAU_Create_UserInit="void R_TAUn_Create_UserInit(void)" r_tau_channeln_interrupt="__interrupt static void r_tau_channeln_interrupt(void)" r_tau_channeln_higher8bits_interrupt="__interrupt static void r_tau_channeln_higher8bits_interrupt(void)" /&gt;
           &lt;TAU0&gt;
-            &lt;R_TAU0_Create_UserInit UserName="R_TAU0_Create_UserInit" LibName="R_TAU_Create_UserInit" InUse="" /&gt;
+            &lt;R_TAU0_Create_UserInit UserName="R_TAU0_Create_UserInit" LibName="R_TAU_Create_UserInit" InUse="0" /&gt;
             &lt;Channel0 InUse=""&gt;
-              &lt;r_tau0_channel0_interrupt UserName="r_tau0_channel0_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel0_interrupt UserName="r_tau0_channel0_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="1" /&gt;
             &lt;/Channel0&gt;
             &lt;Channel1 InUse=""&gt;
-              &lt;r_tau0_channel1_interrupt UserName="r_tau0_channel1_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
-              &lt;r_tau0_channel1_higher8bits_interrupt UserName="r_tau0_channel1_higher8bits_interrupt" INTHandle="" LibName="r_tau_channeln_higher8bits_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel1_interrupt UserName="r_tau0_channel1_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
+              &lt;r_tau0_channel1_higher8bits_interrupt UserName="r_tau0_channel1_higher8bits_interrupt" INTHandle="" LibName="r_tau_channeln_higher8bits_interrupt" InUse="0" /&gt;
             &lt;/Channel1&gt;
             &lt;Channel2 InUse=""&gt;
-              &lt;r_tau0_channel2_interrupt UserName="r_tau0_channel2_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel2_interrupt UserName="r_tau0_channel2_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
             &lt;/Channel2&gt;
             &lt;Channel3 InUse=""&gt;
-              &lt;r_tau0_channel3_interrupt UserName="r_tau0_channel3_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="" /&gt;
-              &lt;r_tau0_channel3_higher8bits_interrupt UserName="r_tau0_channel3_higher8bits_interrupt" INTHandle="" LibName="r_tau_channeln_higher8bits_interrupt" InUse="" /&gt;
+              &lt;r_tau0_channel3_interrupt UserName="r_tau0_channel3_interrupt" INTHandle="" LibName="r_tau_channeln_interrupt" InUse="0" /&gt;
+              &lt;r_tau0_channel3_higher8bits_interrupt UserName="r_tau0_channel3_higher8bits_interrupt" INTHandle="" LibName="r_tau_channeln_higher8bits_interrupt" InUse="0" /&gt;
             &lt;/Channel3&gt;
           &lt;/TAU0&gt;
         &lt;/r_cg_timer_user.c&gt;
-        &lt;r_cg_timer.h UserName="r_cg_timer.h" LibName=".h" InUse="" /&gt;
+        &lt;r_cg_timer.h UserName="r_cg_timer.h" LibName=".h" InUse="1" /&gt;
       &lt;/TAU&gt;
       &lt;WDT&gt;
         &lt;r_cg_wdt.c UserName="r_cg_wdt.c" LibName=".c" InUse="1"&gt;
@@ -4302,8 +4352,8 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
         &lt;cg_security3 Name="cg_security3" Value="00" /&gt;
         &lt;cg_security0 Name="cg_security0" Value="00" /&gt;
         &lt;cg_security1 Name="cg_security1" Value="00" /&gt;
-        &lt;cg_ocd_ram_size Name="cg_ocd_ram_size" Value="512" /&gt;
         &lt;clock_option Name="clock_option" Value="E0" /&gt;
+        &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
         &lt;pior_value Name="pior_value" Value="00" /&gt;
         &lt;cg_option Name="cg_option" Value="84" /&gt;
         &lt;cg_security8 Name="cg_security8" Value="00" /&gt;
@@ -4312,7 +4362,7 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
         &lt;cg_onchip Name="cg_onchip" Value="" /&gt;
         &lt;cg_security2 Name="cg_security2" Value="00" /&gt;
         &lt;cg_iawctl_value Name="cg_iawctl_value" Value="00" /&gt;
-        &lt;lvi_option Name="lvi_option" Value="FF" /&gt;
+        &lt;cg_ocd_ram_size Name="cg_ocd_ram_size" Value="512" /&gt;
         &lt;wdt_option Name="wdt_option" Value="FF" /&gt;
         &lt;rrm Name="rrm" Value="03E00" /&gt;
       &lt;/GlobleUserTag&gt;
@@ -4325,9 +4375,9 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
     &lt;PORT HelpID="port" Prepared="true" SetFlag="True" NeedRefresh="False"&gt;
       &lt;PORT SetFlag="True" MacroName="PORT" /&gt;
     &lt;/PORT&gt;
-    &lt;INTC SetFlag="" HelpID="int" NeedRefresh="False"&gt;
-      &lt;INTP Accelerate="No" MacroName="INTP" /&gt;
-      &lt;KEY Chip="RL78G12_20pin,RL78G12_24pin," MacroName="KEY" /&gt;
+    &lt;INTC SetFlag="False" HelpID="int" NeedRefresh="False"&gt;
+      &lt;INTP Accelerate="No" MacroName="INTP" SetFlag="False" TabEnable="True" /&gt;
+      &lt;KEY Chip="RL78G12_20pin,RL78G12_24pin," MacroName="KEY" SetFlag="False" TabEnable="True" /&gt;
     &lt;/INTC&gt;
     &lt;Serial SetFlag="False" HelpID="serial" NeedRefresh="False"&gt;
       &lt;SAU0 Chip="RL78G12_20pin,RL78G12_24pin" Accelerate="No" MacroName="SAU" Channel="0" SetFlag="False" TabEnable="True"&gt;
@@ -4339,8 +4389,8 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
     &lt;ADC SetFlag="" HelpID="adc" NeedRefresh="False"&gt;
       &lt;ADC SetFlag="" MacroName="ADC" /&gt;
     &lt;/ADC&gt;
-    &lt;TAU SetFlag="false" HelpID="timer" NeedRefresh="False"&gt;
-      &lt;TAU0 Accelerate="No" Chip="RL78G12_20pin,RL78G12_24pin" MacroName="TAU" Channel="0" ChannelNum="0,1,2,3" /&gt;
+    &lt;TAU SetFlag="True" HelpID="timer" NeedRefresh="False"&gt;
+      &lt;TAU0 Accelerate="No" Chip="RL78G12_20pin,RL78G12_24pin" MacroName="TAU" Channel="0" ChannelNum="0,1,2,3" SetFlag="True" /&gt;
     &lt;/TAU&gt;
     &lt;WDT Prepared="true" SetFlag="true" HelpID="watchdogtimer" NeedRefresh="False"&gt;
       &lt;WDT SetFlag="true" MacroName="WDT" /&gt;
@@ -4352,8 +4402,8 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       &lt;PCLBUZ0 MacroName="PCLBUZ" Channel="0" /&gt;
     &lt;/PCLBUZ&gt;
     &lt;DMAC HelpID="dmac" SetFlag="" NeedRefresh="False"&gt;
-      &lt;DMA0 MacroName="DMAC" Channel="0" /&gt;
-      &lt;DMA1 MacroName="DMAC" Channel="1" /&gt;
+      &lt;DMA0 MacroName="DMAC" Channel="0" TabEnable="True" /&gt;
+      &lt;DMA1 MacroName="DMAC" Channel="1" TabEnable="True" /&gt;
     &lt;/DMAC&gt;
     &lt;LVD SetFlag="" Prepared="true" HelpID="lvi" NeedRefresh="False"&gt;
       &lt;LVD MacroName="LVD" /&gt;
@@ -4577,6 +4627,172 @@ C:\Program Files (x86)\Renesas Electronics\CS+\CC\FAA\V1.05.00
       &lt;setting name="Interval_interrupt" value="use" /&gt;
       &lt;setting name="Interval_interrupt_priority" value="3" /&gt;
     &lt;/WDT&gt;
+    &lt;TAU0&gt;
+      &lt;Channel0&gt;
+        &lt;setting name="ChannelFunction" value="1" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+        &lt;TAUDelay0&gt;
+          &lt;setting name="Mode" value="16bits" /&gt;
+          &lt;setting name="Noise_filter" value="unused" /&gt;
+          &lt;setting name="Pinselection" value="-1" /&gt;
+          &lt;setting name="External_event_edge" value="1" /&gt;
+          &lt;setting name="Delay_value" value="100" /&gt;
+          &lt;setting name="Value_scale" value="1" /&gt;
+          &lt;setting name="Generate_interrupt_when_counting_started" value="no" /&gt;
+          &lt;setting name="Interrupt_priority" value="3" /&gt;
+          &lt;setting name="Interrupt" value="used" /&gt;
+        &lt;/TAUDelay0&gt;
+        &lt;TAUInterval0&gt;
+          &lt;setting name="OperationMode" value="16bits" /&gt;
+          &lt;setting name="Count_clock" value="MCK clock" /&gt;
+          &lt;setting name="Sub_clock_mode" value="-1" /&gt;
+          &lt;setting name="Interval_value" value="1000" /&gt;
+          &lt;setting name="Value_scale" value="0" /&gt;
+          &lt;setting name="Intervalvalue_High8bits" value="100" /&gt;
+          &lt;setting name="Intervalvalue_High8bits_scale" value="-1" /&gt;
+          &lt;setting name="Intervalvalue_Low8bits" value="100" /&gt;
+          &lt;setting name="Intervalvalue_Low8bits_Scale" value="-1" /&gt;
+          &lt;setting name="Generate_interrupt_when_couting_started" value="no" /&gt;
+          &lt;setting name="Interrupt" value="used" /&gt;
+          &lt;setting name="Interrupt_priority" value="0" /&gt;
+          &lt;setting name="InterruptH_priority" value="3" /&gt;
+          &lt;setting name="InterruptH8" value="used" /&gt;
+        &lt;/TAUInterval0&gt;
+      &lt;/Channel0&gt;
+      &lt;Channel1&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel1&gt;
+      &lt;Channel2&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel2&gt;
+      &lt;Channel3&gt;
+        &lt;setting name="ChannelFunction" value="0" /&gt;
+        &lt;setting name="Pinselection" value="-1" /&gt;
+      &lt;/Channel3&gt;
+    &lt;/TAU0&gt;
+    &lt;INTP&gt;
+      &lt;INTP0&gt;
+        &lt;setting name="Valid_edge" value="falling" /&gt;
+        &lt;setting name="Operation" value="unused" /&gt;
+        &lt;setting name="ValidEdge" value="0" /&gt;
+        &lt;setting name="Interrupt_priority" value="3" /&gt;
+        &lt;setting name="pinsel" value="-1" /&gt;
+      &lt;/INTP0&gt;
+      &lt;INTP1&gt;
+        &lt;setting name="Valid_edge" value="falling" /&gt;
+        &lt;setting name="Operation" value="unused" /&gt;
+        &lt;setting name="ValidEdge" value="0" /&gt;
+        &lt;setting name="Interrupt_priority" value="3" /&gt;
+        &lt;setting name="pinsel" value="-1" /&gt;
+      &lt;/INTP1&gt;
+      &lt;INTP2&gt;
+        &lt;setting name="Valid_edge" value="falling" /&gt;
+        &lt;setting name="Operation" value="unused" /&gt;
+        &lt;setting name="ValidEdge" value="0" /&gt;
+        &lt;setting name="Interrupt_priority" value="3" /&gt;
+        &lt;setting name="pinsel" value="-1" /&gt;
+      &lt;/INTP2&gt;
+      &lt;INTP3&gt;
+        &lt;setting name="Valid_edge" value="falling" /&gt;
+        &lt;setting name="Operation" value="unused" /&gt;
+        &lt;setting name="ValidEdge" value="0" /&gt;
+        &lt;setting name="Interrupt_priority" value="3" /&gt;
+        &lt;setting name="pinsel" value="-1" /&gt;
+      &lt;/INTP3&gt;
+    &lt;/INTP&gt;
+    &lt;KEY&gt;
+      &lt;setting name="Interrupt_priority" value="3" /&gt;
+      &lt;setting name="KR0" value="unused" /&gt;
+      &lt;setting name="KR1" value="unused" /&gt;
+      &lt;setting name="KR2" value="unused" /&gt;
+      &lt;setting name="KR3" value="unused" /&gt;
+      &lt;setting name="KR4" value="unused" /&gt;
+      &lt;setting name="KR5" value="unused" /&gt;
+      &lt;setting name="KR6" value="unused" /&gt;
+      &lt;setting name="KR7" value="unused" /&gt;
+      &lt;setting name="KR8" value="unused" /&gt;
+      &lt;setting name="KR9" value="unused" /&gt;
+      &lt;setting name="EdgeSelection" value="0" /&gt;
+      &lt;setting name="FlagUse" value="0" /&gt;
+    &lt;/KEY&gt;
+    &lt;ADC&gt;
+      &lt;setting name="AD_convertion" value="unused" /&gt;
+      &lt;setting name="Comparator_operation" value="stop" /&gt;
+      &lt;setting name="Resolution" value="10bit" /&gt;
+      &lt;setting name="AD_Positive" value="VDD" /&gt;
+      &lt;setting name="AD_Negative" value="VSS" /&gt;
+      &lt;setting name="AD_Trigger" value="softtri" /&gt;
+      &lt;setting name="AD_Trigger_Timer" value="0" /&gt;
+      &lt;setting name="Mode" value="CONSELECT" /&gt;
+      &lt;setting name="InputPins" value="0" /&gt;
+      &lt;setting name="InputPinsAttach" value="ANI0 - ANI3" /&gt;
+      &lt;setting name="AD_Inputpin16" value="used" /&gt;
+      &lt;setting name="AD_Inputpin17" value="used" /&gt;
+      &lt;setting name="AD_Inputpin18" value="used" /&gt;
+      &lt;setting name="AD_Inputpin19" value="used" /&gt;
+      &lt;setting name="AD_Inputpin20" value="used" /&gt;
+      &lt;setting name="AD_Inputpin21" value="used" /&gt;
+      &lt;setting name="AD_Inputpin22" value="used" /&gt;
+      &lt;setting name="AD_Inputpin23" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin24" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin25" value="unused" /&gt;
+      &lt;setting name="AD_Inputpin26" value="unused" /&gt;
+      &lt;setting name="SelectedChannel" value="0" /&gt;
+      &lt;setting name="SelectedChannelAttach" value="ANI0" /&gt;
+      &lt;setting name="ConvTimeMode" value="0" /&gt;
+      &lt;setting name="ConversionTime" value="0" /&gt;
+      &lt;setting name="AREAFunction" value="AREA1" /&gt;
+      &lt;setting name="AREAValue_ADUL" value="255" /&gt;
+      &lt;setting name="AREAValue_ADLL" value="0" /&gt;
+      &lt;setting name="Interrput_priority" value="3" /&gt;
+      &lt;setting name="AD_interrupt" value="used" /&gt;
+    &lt;/ADC&gt;
+    &lt;IT&gt;
+      &lt;setting name="IntervalValue" value="100" /&gt;
+      &lt;setting name="ValueScale" value="1" /&gt;
+      &lt;setting name="Operation" value="disable" /&gt;
+      &lt;setting name="INTTIT_priority" value="3" /&gt;
+      &lt;setting name="INTITUse" value="true" /&gt;
+    &lt;/IT&gt;
+    &lt;PCLBUZ0&gt;
+      &lt;setting name="PCLBUZ_clock" value="6000 (fMAIN/2^2)(kHZ)" /&gt;
+      &lt;setting name="PCLBUZ" value="unused" /&gt;
+      &lt;setting name="PCLBUZClock" value="0" /&gt;
+    &lt;/PCLBUZ0&gt;
+    &lt;DMA0&gt;
+      &lt;setting name="Operation" value="unused" /&gt;
+      &lt;setting name="Transfer_direction" value="SFR to RAM" /&gt;
+      &lt;setting name="Data_size" value="8 bits" /&gt;
+      &lt;setting name="SFRAddress" value="ADCR - 0x000fff1e" /&gt;
+      &lt;setting name="Transfer_byte_count" value="1024" /&gt;
+      &lt;setting name="RAM_address" value="" /&gt;
+      &lt;setting name="SourceTrigger" value="0" /&gt;
+      &lt;setting name="Interrupt" value="used" /&gt;
+      &lt;setting name="Interrupt_priority" value="3" /&gt;
+    &lt;/DMA0&gt;
+    &lt;DMA1&gt;
+      &lt;setting name="Operation" value="unused" /&gt;
+      &lt;setting name="Transfer_direction" value="SFR to RAM" /&gt;
+      &lt;setting name="Data_size" value="8 bits" /&gt;
+      &lt;setting name="SFRAddress" value="ADCR - 0x000fff1e" /&gt;
+      &lt;setting name="Transfer_byte_count" value="1024" /&gt;
+      &lt;setting name="RAM_address" value="" /&gt;
+      &lt;setting name="SourceTrigger" value="0" /&gt;
+      &lt;setting name="Interrupt" value="used" /&gt;
+      &lt;setting name="Interrupt_priority" value="3" /&gt;
+    &lt;/DMA1&gt;
+    &lt;LVD&gt;
+      &lt;setting name="Operation" value="unused" /&gt;
+      &lt;setting name="Reset_only_level" value="0" /&gt;
+      &lt;setting name="InterruptReset_level" value="0" /&gt;
+      &lt;setting name="Interrupt_level" value="0" /&gt;
+      &lt;setting name="Interrupt_only_level" value="0" /&gt;
+      &lt;setting name="operation_mode" value="reset" /&gt;
+      &lt;setting name="Interrupt_priority" value="3" /&gt;
+      &lt;setting name="Interrupt_only_priority" value="3" /&gt;
+    &lt;/LVD&gt;
   &lt;/SETTING&gt;
 &lt;/RL78G12&gt;</CodeGenerator>
       <FormatVersion>1.0</FormatVersion>

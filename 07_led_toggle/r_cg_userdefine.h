@@ -23,7 +23,7 @@
 * Device(s)    : R5F1026A
 * Tool-Chain   : CCRL
 * Description  : This file includes user definition.
-* Creation Date: 2024/9/13
+* Creation Date: 2024/9/18
 ***********************************************************************************************************************/
 
 #ifndef _USER_DEF_H

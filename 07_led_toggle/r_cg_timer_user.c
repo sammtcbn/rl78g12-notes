@@ -18,11 +18,11 @@
 ***********************************************************************************************************************/
 
 /***********************************************************************************************************************
-* File Name    : r_main.c
+* File Name    : r_cg_timer_user.c
 * Version      : CodeGenerator for RL78/G12 V2.04.07.02 [17 Nov 2023]
 * Device(s)    : R5F1026A
 * Tool-Chain   : CCRL
-* Description  : This file implements main function.
+* Description  : This file implements device driver for TAU module.
 * Creation Date: 2024/9/18
 ***********************************************************************************************************************/
 
@@ -30,17 +30,16 @@
 Includes
 ***********************************************************************************************************************/
 #include "r_cg_macrodriver.h"
-#include "r_cg_cgc.h"
-#include "r_cg_port.h"
 #include "r_cg_timer.h"
-#include "r_cg_wdt.h"
 /* Start user code for include. Do not edit comment generated here */
+#define  PIN_OUT_LED  (P2_bit.no0)
 /* End user code. Do not edit comment generated here */
 #include "r_cg_userdefine.h"
 
 /***********************************************************************************************************************
 Pragma directive
 ***********************************************************************************************************************/
+#pragma interrupt r_tau0_channel0_interrupt(vect=INTTM00)
 /* Start user code for pragma. Do not edit comment generated here */
 /* End user code. Do not edit comment generated here */
 
@@ -49,38 +48,17 @@ Global variables and functions
 ***********************************************************************************************************************/
 /* Start user code for global. Do not edit comment generated here */
 /* End user code. Do not edit comment generated here */
-void R_MAIN_UserInit(void);
 
 /***********************************************************************************************************************
-* Function Name: main
-* Description  : This function implements main function.
+* Function Name: r_tau0_channel0_interrupt
+* Description  : This function is INTTM00 interrupt service routine.
 * Arguments    : None
 * Return Value : None
 ***********************************************************************************************************************/
-void main(void)
-{
-    R_MAIN_UserInit();
-    /* Start user code. Do not edit comment generated here */
-    while (1U)
-    {
-		NOP();
-		NOP();
-		NOP();
-		NOP();
-    }
-    /* End user code. Do not edit comment generated here */
-}
-
-/***********************************************************************************************************************
-* Function Name: R_MAIN_UserInit
-* Description  : This function adds user code before implementing main function.
-* Arguments    : None
-* Return Value : None
-***********************************************************************************************************************/
-void R_MAIN_UserInit(void)
+static void __near r_tau0_channel0_interrupt(void)
 {
     /* Start user code. Do not edit comment generated here */
-    EI();
+	PIN_OUT_LED ^= 1;	
     /* End user code. Do not edit comment generated here */
 }
 

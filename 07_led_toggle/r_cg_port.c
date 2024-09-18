@@ -23,7 +23,7 @@
 * Device(s)    : R5F1026A
 * Tool-Chain   : CCRL
 * Description  : This file implements device driver for PORT module.
-* Creation Date: 2024/9/13
+* Creation Date: 2024/9/18
 ***********************************************************************************************************************/
 
 /***********************************************************************************************************************
@@ -55,7 +55,7 @@ Global variables and functions
 ***********************************************************************************************************************/
 void R_PORT_Create(void)
 {
-    P2 = _01_Pn0_OUTPUT_1;
+    P2 = _00_Pn0_OUTPUT_0;
     ADPC = _01_ADPC_DI_ON;
     PM2 = _00_PMn0_MODE_OUTPUT | _02_PMn1_NOT_USE | _04_PMn2_NOT_USE | _08_PMn3_NOT_USE | _F0_PM2_DEFAULT;
 }

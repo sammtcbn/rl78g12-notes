@@ -23,7 +23,7 @@
 * Device(s)    : R5F1026A
 * Tool-Chain   : CCRL
 * Description  : This file implements general head file.
-* Creation Date: 2024/9/13
+* Creation Date: 2024/9/18
 ***********************************************************************************************************************/
 
 #ifndef STATUS_H

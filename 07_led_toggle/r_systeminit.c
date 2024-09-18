@@ -23,7 +23,7 @@
 * Device(s)    : R5F1026A
 * Tool-Chain   : CCRL
 * Description  : This file implements system initializing function.
-* Creation Date: 2024/9/13
+* Creation Date: 2024/9/18
 ***********************************************************************************************************************/
 
 /***********************************************************************************************************************
@@ -32,6 +32,7 @@ Includes
 #include "r_cg_macrodriver.h"
 #include "r_cg_cgc.h"
 #include "r_cg_port.h"
+#include "r_cg_timer.h"
 #include "r_cg_wdt.h"
 /* Start user code for include. Do not edit comment generated here */
 /* End user code. Do not edit comment generated here */
@@ -61,6 +62,7 @@ void R_Systeminit(void)
     R_CGC_Get_ResetSource();
     R_CGC_Create();
     R_PORT_Create();
+    R_TAU0_Create();
     R_WDT_Create();
     IAWCTL = 0x00U;
 }
